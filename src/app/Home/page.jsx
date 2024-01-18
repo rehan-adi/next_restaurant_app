@@ -110,8 +110,8 @@ function page() {
                  </div>
                  <div className='flex gap-8 mt-6'>
                    <div>
-                   <p className='text-sm mb-2 opacity-70'>Time</p>
-                    <input type="text" name="" className='bg-white border border-[#d9d9d9] pl-5 rounded-lg pr-12 py-3' id="" placeholder='Time' />
+                   <p className='text-sm mb-2 opacity-70'>People</p>
+                    <input type="number" name="" className='bg-white border border-[#d9d9d9] pl-5 rounded-lg pr-12 py-3' id="" placeholder='Time' />
                    </div>
                    <div>
                     <p className='text-sm mb-2 opacity-70'>Email</p>
