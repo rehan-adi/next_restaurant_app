@@ -94,6 +94,40 @@ function page() {
                            </div>
                   </div>
         </div>
+        <div className='w-auto flex justify-center gap-52 items-center h-[75vh] bg-gray-100'>
+                <div>
+                <h3 className='courgette-font text-center text-3xl text-red-600'>Reservation</h3>
+                <h1 className='text-5xl mt-4 text-center montserrat-font text-black tracking-widest font-bold'>BOOK TABLE</h1>
+                 <div className='flex mt-10 gap-8'>
+                 <div>
+                 <p className='text-sm mb-2 opacity-70'>Name</p>
+                    <input type="text" className='bg-white border pl-5 border-[#d9d9d9] rounded-lg pr-12 py-3' name="" id="" placeholder='Name' />
+                 </div>
+                    <div>
+                    <p className='text-sm mb-2 opacity-70'>Phone</p>
+                    <input className='bg-white border border-[#d9d9d9] pl-5 rounded-lg pr-12 py-3' type="text" name="" id="" placeholder='Phone' />
+                    </div>
+                 </div>
+                 <div className='flex gap-8 mt-6'>
+                   <div>
+                   <p className='text-sm mb-2 opacity-70'>Time</p>
+                    <input type="text" name="" className='bg-white border border-[#d9d9d9] pl-5 rounded-lg pr-12 py-3' id="" placeholder='Time' />
+                   </div>
+                   <div>
+                    <p className='text-sm mb-2 opacity-70'>Email</p>
+                   <input type="text" name="" id="" className='bg-white border border-[#d9d9d9] pl-5 rounded-lg pr-12 py-3' placeholder='Email' />
+                   </div>
+                 </div>
+                 <div className='text-center mt-8 text-white'>
+                   <button className='bg-black px-8 py-3 text-xs montserrat-font rounded-xl'>BOOK TABLE</button>
+                   </div>
+                </div>
+                <div className='w-[25vw] h-[52vh] rounded-lg overflow-hidden'>
+                <div className='w-[25vw] bg-red-500 rounded-lg  hover:scale-110 duration-500 img-date h-[52vh]'>
+                
+                </div>
+                </div>
+        </div>
     </main>
   )
 }
