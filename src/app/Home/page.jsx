@@ -3,7 +3,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 
 function page() {
   return (
-    <main className='h-[450vh]  text-black w-auto '>
+    <main className='h-[666vh]  text-black w-auto '>
         <div className='img-1 text-white flex justify-center items-center flex-col w-full h-[100vh]'>
              <h2 className='text-6xl courgette-font font-medium'>Welcome to </h2>
              <h1 className='text-8xl mt-6 montserrat-font tracking-widest font-bold'>PATO PLACE</h1>
@@ -127,6 +127,39 @@ function page() {
                 
                 </div>
                 </div>
+        </div>
+
+        <div className='h-[95vh] w-auto '>
+               <div>
+               <h3 className='courgette-font text-center mt-10 text-3xl text-red-600'>Latest News</h3>
+                <h1 className='text-5xl mt-4 text-center montserrat-font text-black tracking-widest font-bold'>THE BLOG</h1>
+               </div>
+               <div className='h-[80vh] flex items-center gap-6 justify-center w-auto bg-white'>
+             <div className='w-[25vw] flex justify-center rounded-lg overflow-hidden flex-col items-start h-[56vh]  '>
+                  <div className='w-[25vw] duration-700 rounded-lg blog-img h-[30vh] overflow-hidden transition-transform  hover:scale-110 '>
+                      
+                  </div>
+                  <h1 className='montserrat-font text-xl mt-6 tracking-widest font-semibold '>BEST PLACE FOR DATE</h1>
+                  <p className='mt-5'>Phasellus lorem enim, luctus ut velit eget, con- <br />vallis egestas eros.</p>
+                  <a href='' className='py-2 mt-4 hover:text-red-600 text-xs montserrat-font text-black uppercase bg-white rounded-xl'>CONTINUE READING <IoIosArrowRoundForward className='inline-block mb-1 font-semibold text-2xl' /> </a>
+                  </div>
+                  <div className=' flex justify-center overflow-hidden rounded-lg flex-col items-start w-[25vw] h-[56vh] '>
+                  <div className='w-[25vw] overflow-hidden duration-700 transition-transform hover:scale-110 rounded-lg blog-img1 h-[30vh] '>
+                 
+                  </div>
+                  <h1 className='montserrat-font text-xl mt-6 tracking-widest font-semibold '>EGGS AND CHEESE</h1>
+                  <p className='mt-5'>Aliquam eget aliquam magna, quis posuere risus <br /> ac justo ipsum nibh urna</p>
+                  <a href='' className=' py-2 mt-4 text-xs hover:text-red-600 montserrat-font text-black  uppercase bg-white rounded-xl'>CONTINUE READING <IoIosArrowRoundForward className='inline-block mb-1 font-semibold text-2xl' /></a>
+                  </div>
+                  <div className='flex justify-center flex-col overflow-hidden rounded-lg items-start w-[25vw] h-[56vh] '>
+                  <div className='w-[25vw] overflow-hidden transition-transform duration-700 hover:scale-110 rounded-lg  blog-img2 h-[30vh] '>
+                
+                  </div>
+                  <h1 className='montserrat-font text-xl mt-6 tracking-widest font-semibold '>STYLE THE WEDDING PARTY</h1>
+                  <p className='mt-5'>Sed ornare ligula eget tortor tempor, quis porta <br /> tellus dictum.</p>
+                  <a href='' className='py-2 mt-4 hover:text-red-600 text-xs montserrat-font text-black  uppercase bg-white rounded-xl'>CONTINUE READING  <IoIosArrowRoundForward className='inline-block mb-1 font-semibold text-2xl' /></a>
+                  </div>
+        </div>
         </div>
     </main>
   )
