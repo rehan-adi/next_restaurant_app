@@ -23,3 +23,67 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.bg-img1{
+  background-image: url('https://preview.colorlib.com/theme/pato/images/bg-intro-01.jpg.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bg-img2{
+  background-image: url('https://preview.colorlib.com/theme/pato/images/intro-01.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-img3{
+  background-image: url('https://preview.colorlib.com/theme/pato/images/intro-02.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-img4{
+  background-image: url('https://preview.colorlib.com/theme/pato/images/intro-04.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fish-img{
+  background-image: url(https://preview.colorlib.com/theme/pato/images/our-menu-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.happy-img{
+  background-image: url(https://preview.colorlib.com/theme/pato/images/our-menu-13.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wine-img{
+  background-image: url(https://preview.colorlib.com/theme/pato/images/our-menu-05.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.drink-img{
+  background-image: url(https://preview.colorlib.com/theme/pato/images/our-menu-08.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.stater-img{
+  background-image: url(https://preview.colorlib.com/theme/pato/images/our-menu-10.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dessert-img{
+  background-image: url(https://preview.colorlib.com/theme/pato/images/our-menu-16.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
