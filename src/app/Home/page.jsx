@@ -123,7 +123,7 @@ function page() {
                    </div>
                 </div>
                 <div className='w-[25vw] h-[52vh] rounded-lg overflow-hidden'>
-                <div className='w-[25vw] bg-red-500 rounded-lg  hover:scale-110 duration-500 img-date h-[52vh]'>
+                <div className='w-[25vw]  rounded-lg  hover:scale-110 duration-500 img-date h-[52vh]'>
                 
                 </div>
                 </div>

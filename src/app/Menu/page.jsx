@@ -120,7 +120,7 @@ function page() {
                  <div className=' flex justify-center items-center menu-bg1  mt-16 h-[55vh] w-auto'>
                  <h1 className='text-5xl mt-6 text-white montserrat-font z-50 opacity-100 tracking-widest font-bold'>LUNCH</h1>
                  </div>
-                 <div className='flex justify-between items-center h-[70vh] w-auto mt-12 px-36'>
+                 <div className='flex justify-between items-center h-[70vh] w-auto mt-12 px-48'>
                   <div className='flex flex-col gap-9'>
                     <div className='flex justify-center items-center'>
                       <div className='h-[15vh] w-[10vw] rounded-lg overflow-hidden'>
