@@ -191,3 +191,40 @@
   background-size: cover;
   background-attachment: fixed;
 }
+.Dinner-img{
+  background-image: url(https://preview.colorlib.com/theme/pato/images/dinner-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Dinner-img1{
+  background-image: url(https://preview.colorlib.com/theme/pato/images/dinner-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Dinner-img2{
+  background-image: url(https://preview.colorlib.com/theme/pato/images/dinner-05.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Dinner-img3{
+  background-image: url(https://preview.colorlib.com/theme/pato/images/dinner-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Dinner-img4{
+  background-image: url(https://preview.colorlib.com/theme/pato/images/dinner-04.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Dinner-img5{
+  background-image: url(https://preview.colorlib.com/theme/pato/images/dinner-06.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
