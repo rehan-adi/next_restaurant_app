@@ -2,11 +2,11 @@ import React from 'react'
 
 function page() {
   return (
-    <div className='h-[300vh] montserrat-font w-auto'>
+    <div className='h-[450vh] montserrat-font w-auto'>
         <div className='h-[75vh] flex justify-center items-center w-auto menu-bg'>
           <h1 className='text-5xl mt-6 text-white montserrat-font tracking-widest font-bold'>PATO MENU</h1>
           </div>
-          <div className='flex justify-around mt-20 items-center'>
+          <div className='flex justify-around mt-20 px-20 ml-5 items-center'>
             <div className='mb-[60px]'>
                   <h1 className='tracking-widest text-black mb-9 text-2xl font-semibold'>STARTERS</h1>
                   <div className='flex gap-6  mb-9 items-center'>
@@ -69,7 +69,7 @@ function page() {
                   </div>
                   </div>
           </div>
-                  <div className='flex justify-around items-center mt-20'>
+                  <div className='flex justify-around px-20 ml-5 items-center mt-20'>
                      <div className=''>
                   <h1 className='tracking-widest text-black mb-9 text-2xl font-semibold'>DRINKS</h1>
                   <div className='flex gap-6  mb-9 items-center'>
@@ -117,8 +117,89 @@ function page() {
                   </div>
                   </divv>
                   </div>
-                 <div className='bg-red-700 mt-16 h-[40vh] w-auto'>
-                    
+                 <div className=' flex justify-center items-center menu-bg1  mt-16 h-[55vh] w-auto'>
+                 <h1 className='text-5xl mt-6 text-white montserrat-font z-50 opacity-100 tracking-widest font-bold'>LUNCH</h1>
+                 </div>
+                 <div className='flex justify-between items-center h-[70vh] w-auto mt-12 px-36'>
+                  <div className='flex flex-col gap-9'>
+                    <div className='flex justify-center items-center'>
+                      <div className='h-[15vh] w-[10vw] rounded-lg overflow-hidden'>
+                      <div className=' Lunch-img rounded-lg hover:scale-110 duration-500 h-[15vh] w-[10vw]'>
+                         
+                      </div>
+                      </div>
+                      <div className='ml-6 flex flex-col gap-2'>
+                         <h1 className='text-sm cursor-pointer hover:text-red-600 duration-500  tracking-widest'>SED VARIUS</h1>
+                         <p className='text-xs opacity-90'>Aenean pharetra tortor dui in pellentesque</p>
+                         <p>$29.79</p>
+                      </div>
+                   </div>
+                    <div className='flex justify-start items-center'>
+                      <div className='h-[15vh] w-[10vw] overflow-hidden rounded-lg '>
+                      <div className=' Lunch-img1 rounded-lg hover:scale-110 duration-500 h-[15vh] w-[10vw]'>
+                         
+                      </div>
+                      </div>
+                      <div className='ml-6 flex flex-col gap-2'>
+                         <h1 className='text-sm cursor-pointer hover:text-red-600 duration-500  tracking-widest'>TEMPUS ALIQUET</h1>
+                         <p className='text-xs opacity-90'>Aenean condimentum ante erat</p>
+                         <p>$45.09</p>
+                      </div>
+                   </div>
+                    <div className='flex justify-center items-center'>
+                      <div className='h-[15vh] w-[10vw] overflow-hidden rounded-lg'>
+                      <div className=' Lunch-img2 rounded-lg hover:scale-110 duration-500 h-[15vh] w-[10vw]'>
+                         
+                      </div>
+                      </div>
+                      <div className='ml-6 flex flex-col gap-2'>
+                         <h1 className='text-sm cursor-pointer hover:text-red-600 duration-500  tracking-widest'>DUIS MASSA</h1>
+                         <p className='text-xs opacity-90'>Proin lacinia nisl ut ultricies posuere nulla</p>
+                         <p>$12.49</p>
+                      </div>
+                      </div>
+                   </div>
+                   <div className='flex flex-col gap-9'>
+                    <div className='flex justify-center items-center'>
+                      <div className='rounded-lg h-[15vh] w-[10vw] overflow-hidden'>
+                      <div className=' Lunch-img3 hover:scale-110 duration-500 rounded-lg h-[15vh] w-[10vw]'>
+                         
+                      </div>
+                      </div>
+                      <div className='ml-4 flex flex-col gap-2'>
+                         <h1 className='text-sm cursor-pointer hover:text-red-600 duration-500  tracking-widest'>SBRISALONA</h1>
+                         <p className='text-xs opacity-90'>Aenean pharetra tortor dui in pellentesque</p>
+                         <p>$29.79</p>
+                      </div>
+                   </div>
+                    <div className='flex justify-center items-center'>
+                      <div className='rounded-lg h-[15vh] w-[10vw] overflow-hidden'>
+                      <div className='Lunch-img4 hover:scale-110 duration-500 rounded-lg h-[15vh] w-[10vw]'>
+                         
+                      </div>
+                      </div>
+                      <div className='flex flex-col gap-2 ml-6'>
+                         <h1 className='text-sm cursor-pointer hover:text-red-600 duration-500  tracking-widest'>CRAS EGET MAGNA</h1>
+                         <p className='text-xs opacity-90'>Aenean pharetra tortor dui in pellentesque</p>
+                         <p>$29.79</p>
+                      </div>
+                   </div>
+                    <div className='flex justify-center items-center'>
+                      <div className='rounded-lg h-[15vh] w-[10vw] overflow-hidden'>
+                      <div className='Lunch-img5 hover:scale-110 duration-500  rounded-lg h-[15vh] w-[10vw]'>
+                         
+                      </div>
+                      </div>
+                      <div className='flex flex-col gap-2 ml-6'>
+                         <h1 className='text-sm cursor-pointer hover:text-red-600 duration-500 tracking-widest'>NULLAM MAXIMUS</h1>
+                         <p className='text-xs opacity-90'>Aenean pharetra tortor dui in pellentesque</p>
+                         <p>$29.79</p>
+                      </div>
+                      </div>
+                   </div>
+                 </div>
+                 <div className='h-[50vh] mt-10 flex justify-center items-center w-auto dinner-img'>
+                 <h1 className='text-4xl mt-6 text-white montserrat-font z-50 opacity-100 tracking-widest font-bold'>DINNER</h1>
                  </div>
     </div>
   )

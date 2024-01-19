@@ -136,6 +136,58 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.menu-bg1{
+  background-image: url(https://preview.colorlib.com/theme/pato/images/header-menu-01.jpg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  filter: brightness(90%);
+}
 .tracking{
   letter-spacing: 10px;
+}
+
+.Lunch-img{
+  background-image: url(https://preview.colorlib.com/theme/pato/images/lunch-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Lunch-img1{
+  background-image: url(https://preview.colorlib.com/theme/pato/images/lunch-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Lunch-img2{
+  background-image: url(https://preview.colorlib.com/theme/pato/images/lunch-05.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Lunch-img3{
+  background-image: url(https://preview.colorlib.com/theme/pato/images/lunch-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Lunch-img4{
+  background-image: url(https://preview.colorlib.com/theme/pato/images/lunch-04.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Lunch-img5{
+  background-image: url(https://preview.colorlib.com/theme/pato/images/lunch-06.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dinner-img{
+  background-image: url(https://preview.colorlib.com/theme/pato/images/header-menu-02.jpg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
