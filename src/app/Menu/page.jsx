@@ -8,7 +8,7 @@ function page() {
           <h1 className='text-5xl mt-6 text-white montserrat-font tracking-widest font-bold'>PATO MENU</h1>
           </div>
           <div className='flex justify-around mt-20 px-20 ml-5 items-center'>
-            <div className='mb-[60px]'>
+            <div className=''>
                   <h1 className='tracking-widest text-black mb-9 text-2xl font-semibold'>STARTERS</h1>
                   <div className='flex gap-6  mb-9 items-center'>
                      <p>PINE NUT SBRISALONA</p>
@@ -30,10 +30,15 @@ function page() {
                      <p className='tracking'>...................</p>
                      <p>$21.89</p>
                   </div>
-                  <div className='flex items-center gap-6'>
+                  <div className='flex mb-9 items-center gap-6'>
                      <p>CHIKEN RESMI CABAB</p>
                      <p className='tracking'>..............</p>
                      <p>$33.59</p>
+                  </div>
+                  <div className='flex items-center gap-6'>
+                     <p>CHEESE ROLL</p>
+                     <p className='tracking'>...................</p>
+                     <p>$47.24</p>
                   </div>
                   </div>
                   <div>
