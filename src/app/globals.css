@@ -130,3 +130,12 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.menu-bg{
+  background-image: url(https://preview.colorlib.com/theme/pato/images/bg-title-page-01.jpg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tracking{
+  letter-spacing: 10px;
+}

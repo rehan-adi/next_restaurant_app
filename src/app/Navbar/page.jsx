@@ -6,7 +6,7 @@ import { SiSwiggy } from "react-icons/si";
 
 function page() {
   return (
-    <nav className='w-screen montserrat-font h-[15vh] px-20  fixed text-white flex justify-around items-center'>
+    <nav className='w-screen montserrat-font h-[12vh] px-20 fixed text-white flex justify-around items-center'>
         <div className='flex justify-center items-center'>
             <img src="https://preview.colorlib.com/theme/pato/images/icons/logo.png" alt="" />
         </div>
