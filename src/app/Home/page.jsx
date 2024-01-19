@@ -101,21 +101,21 @@ function page() {
                  <div className='flex mt-10 gap-8'>
                  <div>
                  <p className='text-sm mb-2 opacity-70'>Name</p>
-                    <input type="text" className='bg-white border pl-5 border-[#d9d9d9] rounded-lg pr-12 py-3' name="" id="" placeholder='Name' />
+                    <input type="text" className='bg-white border-2 pl-5 border-[#d9d9d9] rounded-lg pr-12 py-3' name="" id="" placeholder='Name' />
                  </div>
                     <div>
                     <p className='text-sm mb-2 opacity-70'>Phone</p>
-                    <input className='bg-white border border-[#d9d9d9] pl-5 rounded-lg pr-12 py-3' type="text" name="" id="" placeholder='Phone' />
+                    <input className='bg-white border-2 border-[#d9d9d9] pl-5 rounded-lg pr-12 py-3' type="text" name="" id="" placeholder='Phone' />
                     </div>
                  </div>
                  <div className='flex gap-8 mt-6'>
                    <div>
                    <p className='text-sm mb-2 opacity-70'>People</p>
-                    <input type="number" name="" className='bg-white border border-[#d9d9d9] pl-5 rounded-lg pr-12 py-3' id="" placeholder='Time' />
+                    <input type="number" name="" className='bg-white border-2 border-[#d9d9d9] pl-5 rounded-lg pr-12 py-3' id="" placeholder='Time' />
                    </div>
                    <div>
                     <p className='text-sm mb-2 opacity-70'>Email</p>
-                   <input type="text" name="" id="" className='bg-white border border-[#d9d9d9] pl-5 rounded-lg pr-12 py-3' placeholder='Email' />
+                   <input type="text" name="" id="" className='bg-white border-2 border-[#d9d9d9] pl-5 rounded-lg pr-12 py-3' placeholder='Email' />
                    </div>
                  </div>
                  <div className='text-center mt-8 text-white'>
@@ -161,6 +161,11 @@ function page() {
                   </div>
         </div>
         </div>
+        <div className='bg-gray-100 flex justify-center items-center gap-10 montserrat-font w-auto h-[20vh]'>
+                <h1 className='text-2xl tracking-widest font-semibold '>SPECIALS SIGN UP</h1>
+                <input type="text" className='pr-12 border border-[#d9d9d9] rounded-lg  pl-4 text-sm py-3' placeholder='Email Address' id="" />
+                <button className='bg-black text-white px-8 py-3 rounded-lg text-sm'>SINGH - UP</button>
+           </div>
     </main>
   )
 }

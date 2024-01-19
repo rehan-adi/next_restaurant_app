@@ -5,12 +5,7 @@ import { SiSwiggy } from "react-icons/si";
 
 function page() {
   return (
-    <div className='h-screen  w-auto'>
-           <div className='bg-gray-100 flex justify-center items-center gap-10 montserrat-font  w-auto h-[30vh]'>
-                <h1 className='text-2xl tracking-widest font-semibold '>SPECIALS SIGN UP</h1>
-                <input type="text" className='pr-12 border border-[#d9d9d9] rounded-lg  pl-4 text-sm py-3' placeholder='Email Address' id="" />
-                <button className='bg-black text-white px-8 py-3 rounded-lg text-sm'>SINGH - UP</button>
-           </div>
+    <div className='h-[70vh]  w-auto'>
            <footer className='montserrat-font text-white w-auto h-[60vh] bg-[#222]'>
             <div className='flex justify-center pt-14 items-center gap-40'>
                 <div>

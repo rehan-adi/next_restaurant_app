@@ -2,7 +2,7 @@ import React from 'react'
 
 function page() {
   return (
-    <div className='h-[465vh] montserrat-font w-auto'>
+    <div className='h-[490vh] montserrat-font w-auto'>
         <div className='h-[75vh] flex justify-center items-center w-auto menu-bg'>
           <h1 className='text-5xl mt-6 text-white montserrat-font tracking-widest font-bold'>PATO MENU</h1>
           </div>
@@ -229,7 +229,7 @@ function page() {
                    </div>
                     <div className='flex justify-center items-center'>
                       <div className='h-[15vh] w-[10vw] overflow-hidden rounded-lg'>
-                      <div className=' Dinner-im2 rounded-lg hover:scale-110 duration-500 h-[15vh] w-[10vw]'>
+                      <div className=' Dinner-img2 rounded-lg hover:scale-110 duration-500 h-[15vh] w-[10vw]'>
                          
                       </div>
                       </div>
@@ -243,7 +243,7 @@ function page() {
                    <div className='flex flex-col gap-9'>
                     <div className='flex justify-center items-center'>
                       <div className='rounded-lg h-[15vh] w-[10vw] overflow-hidden'>
-                      <div className=' Dinner-im3 hover:scale-110 duration-500 rounded-lg h-[15vh] w-[10vw]'>
+                      <div className=' Dinner-img3 hover:scale-110 duration-500 rounded-lg h-[15vh] w-[10vw]'>
                          
                       </div>
                       </div>
@@ -255,7 +255,7 @@ function page() {
                    </div>
                     <div className='flex justify-center items-center'>
                       <div className='rounded-lg h-[15vh] w-[10vw] overflow-hidden'>
-                      <div className='Dinner-im4 hover:scale-110 duration-500 rounded-lg h-[15vh] w-[10vw]'>
+                      <div className='Dinner-img4 hover:scale-110 duration-500 rounded-lg h-[15vh] w-[10vw]'>
                          
                       </div>
                       </div>
@@ -267,7 +267,7 @@ function page() {
                    </div>
                     <div className='flex justify-center items-center'>
                       <div className='rounded-lg h-[15vh] w-[10vw] overflow-hidden'>
-                      <div className='Dinner-im5 hover:scale-110 duration-500  rounded-lg h-[15vh] w-[10vw]'>
+                      <div className='Dinner-img5 hover:scale-110 duration-500  rounded-lg h-[15vh] w-[10vw]'>
                          
                       </div>
                       </div>
@@ -279,6 +279,11 @@ function page() {
                       </div>
                    </div>
                  </div>
+                 <div className='bg-gray-100 mt-9 flex justify-center items-center gap-10 montserrat-font  w-auto h-[25vh]'>
+                <h1 className='text-2xl tracking-widest font-semibold '>SPECIALS SIGN UP</h1>
+                <input type="text" className='pr-12 border border-[#d9d9d9] rounded-lg  pl-4 text-sm py-3' placeholder='Email Address' id="" />
+                <button className='bg-black text-white px-8 py-3 rounded-lg text-sm'>SINGH - UP</button>
+           </div>
     </div>
   )
 }

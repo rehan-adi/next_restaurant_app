@@ -11,11 +11,15 @@ function page() {
             <img src="https://preview.colorlib.com/theme/pato/images/icons/logo.png" alt="" />
         </div>
         <ul className='flex text-sm gap-10'>
+          <Link href="/">
             <li className='hover:text-red-600 duration-500 cursor-pointer'>HOME</li>
+            </Link>
             <Link href="/Menu" >
             <li className='hover:text-red-600 duration-500 cursor-pointer'>MENU</li>
             </Link>
+            <Link href="/Reservation">
             <li className='hover:text-red-600 duration-500 cursor-pointer'>RESERVATION</li>
+            </Link>
             <li className='hover:text-red-600 duration-500 cursor-pointer'>GALLERY</li>
             <li className='hover:text-red-600 duration-500 cursor-pointer'>ABOUT</li>
             <li className='hover:text-red-600 duration-500 cursor-pointer'>BLOG</li>
