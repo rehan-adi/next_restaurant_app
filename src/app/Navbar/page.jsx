@@ -21,9 +21,12 @@ function page() {
             <li className='hover:text-red-600 duration-500 cursor-pointer'>RESERVATION</li>
             </Link>
             <li className='hover:text-red-600 duration-500 cursor-pointer'>GALLERY</li>
+            <Link href="/About">
             <li className='hover:text-red-600 duration-500 cursor-pointer'>ABOUT</li>
+            </Link> 
             <li className='hover:text-red-600 duration-500 cursor-pointer'>BLOG</li>
             <li className='hover:text-red-600 duration-500 cursor-pointer'>CONTACT</li>
+
         </ul>
         <div className='flex items-center gap-6'>
            <span><FaFacebookF  className='text-xl hover:text-red-600 duration-500 cursor-pointer text-white' /></span>

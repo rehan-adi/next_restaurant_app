@@ -234,3 +234,17 @@
   background-size: cover;
 }
 
+.about-img{
+  background-image: url(https://preview.colorlib.com/theme/pato/images/bg-title-page-03.jpg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-img-1{
+  background-image: url(https://preview.colorlib.com/theme/pato/images/header-menu-01.jpg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
