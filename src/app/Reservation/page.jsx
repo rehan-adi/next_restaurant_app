@@ -1,5 +1,10 @@
 import React from 'react'
 
+export const metadata = {
+  title : "Reservation"
+}
+
+
 function page() {
   return (
     <div className='h-[195vh] w-auto'>

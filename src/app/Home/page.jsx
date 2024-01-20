@@ -2,6 +2,11 @@ import React from 'react'
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { IoMdMail } from "react-icons/io";
 
+export const metadata = {
+  title : "Home"
+}
+
+
 function page() {
   return (
     <main className='h-[666vh]  text-black w-auto '>

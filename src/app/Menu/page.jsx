@@ -1,6 +1,11 @@
 import React from 'react'
 import { IoMdMail } from "react-icons/io";
 
+export const metadata = {
+   title : "Menu"
+ }
+ 
+
 function page() {
   return (
     <div className='h-[490vh] montserrat-font w-auto'>

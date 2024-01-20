@@ -1,7 +1,14 @@
 import React from 'react'
 import { IoMdMail } from "react-icons/io";
 
+
+export const metadata = {
+  title : "About"
+}
+
+
 function page() {
+
   return (
     <div className=' h-[575vh] montserrat-font w-auto'>
          <div className='about-img flex justify-center items-center h-[75vh] w-auto'>

@@ -1,5 +1,10 @@
 import React from 'react'
 
+export const metadata = {
+  title: "Blog"
+}
+
+
 function page() {
   return (
     <div className='h-[100vh] w-auto bg-blue-400'>

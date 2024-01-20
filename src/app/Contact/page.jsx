@@ -3,6 +3,11 @@ import { IoLocationSharp } from "react-icons/io5";
 import { LuClock10 } from "react-icons/lu";
 import { IoMdCall } from "react-icons/io";
 
+export const metadata = {
+  title : "Contact"
+}
+
+
 function page() {
   return (
     <div className='h-[260vh] montserrat-font w-auto'>
