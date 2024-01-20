@@ -25,7 +25,9 @@ function page() {
             <li className='hover:text-red-600 duration-500 cursor-pointer'>ABOUT</li>
             </Link> 
             <li className='hover:text-red-600 duration-500 cursor-pointer'>BLOG</li>
+            <Link href="/Contact">
             <li className='hover:text-red-600 duration-500 cursor-pointer'>CONTACT</li>
+            </Link>
 
         </ul>
         <div className='flex items-center gap-6'>

@@ -13,29 +13,29 @@ function page() {
                   <div className='flex gap-10 mt-12 justify-center items-center'>
                     <div>
                     <p className='text-sm mb-2 opacity-70'>Date</p>
-                      <input type="text" className='py-3 pr-10 pl-3 border-2 border-[#d9d9d9] rounded-lg' placeholder='Date' />
+                      <input type="text" className='py-3 outline-none pr-10 pl-3 border-2 border-[#d9d9d9] rounded-lg' placeholder='Date' />
                       </div>
                       <div>
                         <p className='text-sm mb-2 opacity-70'>Time</p>
-                      <input type="text" className='py-3 pr-10 pl-3 border-2 border-[#d9d9d9] rounded-lg' placeholder='Time' />
+                      <input type="text" className='py-3 outline-none pr-10 pl-3 border-2 border-[#d9d9d9] rounded-lg' placeholder='Time' />
                       </div>
                       <div>
                       <p className='text-sm mb-2 opacity-70'>People</p>
-                      <input type="number" className='py-3 pr-10 pl-3 border-2 border-[#d9d9d9] rounded-lg' placeholder='People' />
+                      <input type="number" className='py-3 pr-10 outline-none pl-3 border-2 border-[#d9d9d9] rounded-lg' placeholder='People' />
                       </div>
                   </div>
                   <div className='flex  gap-10 justify-center items-center'>
                     <div>
                     <p className='text-sm mb-2 opacity-70'>Name</p>
-                      <input type="text" className='py-3 pr-10 pl-3 border-2 border-[#d9d9d9] rounded-lg' placeholder='Name' />
+                      <input type="text" className='py-3 outline-none pr-10 pl-3 border-2 border-[#d9d9d9] rounded-lg' placeholder='Name' />
                     </div>
                      <div>
                      <p className='text-sm mb-2 opacity-70'>Phone</p>
-                      <input type="text" className='py-3 pr-10 pl-3 border-2 border-[#d9d9d9] rounded-lg' placeholder='Phone' />
+                      <input type="text" className='py-3 outline-none pr-10 pl-3 border-2 border-[#d9d9d9] rounded-lg' placeholder='Phone' />
                      </div>
                     <div>
                     <p className='text-sm mb-2 opacity-70'>Email</p>
-                      <input type="text" className='py-3 pr-10 pl-3 border-2 border-[#d9d9d9] rounded-lg' placeholder='Email' />
+                      <input type="text" className='py-3 outline-none pr-10 pl-3 border-2 border-[#d9d9d9] rounded-lg' placeholder='Email' />
                     </div>
                   </div>
                   <div className='flex justify-center items-center mt-4'>

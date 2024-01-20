@@ -81,11 +81,11 @@ function page() {
                            </div>
                   </div>  
                   <div className='flex justify-center ml-8 items-center mt-16 gap-7'>
-                    <divv className='h-[31vh] w-[111vh] rounded-lg overflow-hidden '>
+                    <div className='h-[31vh] w-[111vh] rounded-lg overflow-hidden '>
                       <div className='h-[31vh] flex justify-center items-center rounded-lg overflow-hidden duration-500 hover:scale-110 w-[111vh] happy-img'>
                             <h1 className='px-8 py-3 bg-white text-2xl opacity-85 duration-700 hover:bg-red-600 hover:text-white text-black tracking-widest font-normal rounded-lg'>HAPPY HOUR</h1> 
                       </div>
-                      </divv>
+                      </div>
                       <div className='flex flex-col gap-7'>
                         <div className='h-[31vh] overflow-hidden rounded-lg w-[55vh] '>
                            <div className='h-[31vh] flex justify-center items-center hover:scale-110 duration-500 rounded-lg w-[50vh] dessert-img'>
@@ -102,21 +102,21 @@ function page() {
                  <div className='flex mt-10 gap-8'>
                  <div>
                  <p className='text-sm mb-2 opacity-70'>Name</p>
-                    <input type="text" className='bg-white border-2 pl-5 border-[#d9d9d9] rounded-lg pr-12 py-3' name="" id="" placeholder='Name' />
+                    <input type="text" className='bg-white border-2 outline-none pl-5 border-[#d9d9d9] rounded-lg pr-12 py-3' name="" id="" placeholder='Name' />
                  </div>
                     <div>
                     <p className='text-sm mb-2 opacity-70'>Phone</p>
-                    <input className='bg-white border-2 border-[#d9d9d9] pl-5 rounded-lg pr-12 py-3' type="text" name="" id="" placeholder='Phone' />
+                    <input className='bg-white border-2 border-[#d9d9d9] outline-none pl-5 rounded-lg pr-12 py-3' type="text" name="" id="" placeholder='Phone' />
                     </div>
                  </div>
                  <div className='flex gap-8 mt-6'>
                    <div>
                    <p className='text-sm mb-2 opacity-70'>People</p>
-                    <input type="number" name="" className='bg-white border-2 border-[#d9d9d9] pl-5 rounded-lg pr-12 py-3' id="" placeholder='Time' />
+                    <input type="number" name="" className='bg-white border-2 outline-none border-[#d9d9d9] pl-5 rounded-lg pr-12 py-3' id="" placeholder='Time' />
                    </div>
                    <div>
                     <p className='text-sm mb-2 opacity-70'>Email</p>
-                   <input type="text" name="" id="" className='bg-white border-2 border-[#d9d9d9] pl-5 rounded-lg pr-12 py-3' placeholder='Email' />
+                   <input type="text" name="" id="" className='bg-white outline-none border-2 border-[#d9d9d9] pl-5 rounded-lg pr-12 py-3' placeholder='Email' />
                    </div>
                  </div>
                  <div className='text-center mt-8 text-white'>
