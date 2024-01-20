@@ -83,7 +83,7 @@ function page() {
         </div>
         <div className='bg-gray-100 flex justify-center items-center gap-10 montserrat-font w-auto h-[25vh]'>
                 <h1 className='text-2xl tracking-widest font-semibold '>SPECIALS SIGN UP</h1>
-                <input type="text" className='pr-12 border border-[#d9d9d9] rounded-lg  pl-4 text-sm py-3' placeholder='Email Address' id="" /><IoMdMail className='inline-block absolute left-[900px]' />
+                <input type="text" className='pr-12 border outline-none border-[#d9d9d9] rounded-lg  pl-4 text-sm py-3' placeholder='Email Address' id="" /><IoMdMail className='inline-block absolute left-[900px]' />
                 <button className='bg-black text-white px-8 py-3 rounded-lg text-sm'>SINGH - UP</button>
            </div>
     </div>
