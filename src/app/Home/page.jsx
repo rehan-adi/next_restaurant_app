@@ -17,8 +17,10 @@ function page() {
                <p className=' text-center mt-10 font-semibold opacity-65'>Donec quis lorem nulla. Nunc eu odio mi. Morbi nec lobortis est. Sed <br /> fringilla, nunc sed imperdiet lacinia, nisl ante egestas mi, ac facilisis <br /> ligula sem id neque.</p>
                <p className='hover:text-red-500 mt-6 text-sm opacity-65 text-center duration-500'>OUR STORY <IoIosArrowRoundForward className='inline-block mb-1 font-semibold text-2xl' /> </p>
           </div>
-          <div className='w-[25vw] rounded-xl h-[50vh]'>
+          <div className='w-[25vw] rounded-xl h-[50vh] overflow-hidden'>
+          <div className='w-[25vw] rounded-xl hover:scale-110 duration-500 h-[50vh]'>
              <img src="https://preview.colorlib.com/theme/pato/images/our-story-01.jpg" alt="" />
+          </div>
           </div>
         </div>
         <div className='h-[60vh] flex justify-center items-center flex-col w-auto bg-img1'>
@@ -27,24 +29,30 @@ function page() {
         </div>
         <div className='h-[80vh] flex items-center gap-6 justify-center w-auto bg-white'>
              <div className='w-[25vw] flex justify-center rounded-lg overflow-hidden flex-col items-start h-[56vh]  '>
-                  <div className='w-[25vw] duration-700 rounded-lg bg-img2 h-[30vh] overflow-hidden transition-transform  hover:scale-110 '>
+              <div className='h-[30vh] w-[25vw] overflow-hidden rounded-lg'>
+                  <div className='w-[25vw] duration-700 rounded-lg bg-img2 h-[30vh] transition-transform  hover:scale-110 '>
                       
+                  </div>
                   </div>
                   <h1 className='montserrat-font text-xl mt-6 tracking-widest font-semibold '>ROMANTICE RESTRUANT</h1>
                   <p className='mt-5'>Phasellus lorem enim, luctus ut velit eget, con- <br />vallis egestas eros.</p>
                   <a href='' className='py-2 mt-4 hover:text-red-600 text-xs montserrat-font text-black uppercase bg-white rounded-xl'>LEARN MORE <IoIosArrowRoundForward className='inline-block mb-1 font-semibold text-2xl' /> </a>
                   </div>
                   <div className=' flex justify-center overflow-hidden rounded-lg flex-col items-start w-[25vw] h-[56vh] '>
-                  <div className='w-[25vw] overflow-hidden duration-700 transition-transform hover:scale-110 rounded-lg bg-img3 h-[30vh] '>
+                    <div className='w-[25vw] h-[30vh] rounded-lg  overflow-hidden '>
+                  <div className='w-[25vw] duration-700 transition-transform hover:scale-110 rounded-lg bg-img3 h-[30vh] '>
                  
+                  </div>
                   </div>
                   <h1 className='montserrat-font text-xl mt-6 tracking-widest font-semibold '>DELICIOUS FOOD</h1>
                   <p className='mt-5'>Aliquam eget aliquam magna, quis posuere risus <br /> ac justo ipsum nibh urna</p>
                   <a href='' className=' py-2 mt-4 text-xs hover:text-red-600 montserrat-font text-black  uppercase bg-white rounded-xl'>LEARN MORE <IoIosArrowRoundForward className='inline-block mb-1 font-semibold text-2xl' /></a>
                   </div>
                   <div className='flex justify-center flex-col overflow-hidden rounded-lg items-start w-[25vw] h-[56vh] '>
-                  <div className='w-[25vw] overflow-hidden transition-transform duration-700 hover:scale-110 rounded-lg  bg-img4 h-[30vh] '>
+                    <div className='h-[30vh] overflow-hidden w-[25vw] rounded-lg  '>
+                  <div className='w-[25vw] transition-transform duration-700 hover:scale-110 rounded-lg  bg-img4 h-[30vh] '>
                 
+                  </div>
                   </div>
                   <h1 className='montserrat-font text-xl mt-6 tracking-widest font-semibold '>RED WINES YOU LOVE</h1>
                   <p className='mt-5'>Sed ornare ligula eget tortor tempor, quis porta <br /> tellus dictum.</p>
@@ -137,24 +145,30 @@ function page() {
                </div>
                <div className='h-[80vh] flex items-center gap-6 justify-center w-auto bg-white'>
              <div className='w-[25vw] flex justify-center rounded-lg overflow-hidden flex-col items-start h-[56vh]  '>
-                  <div className='w-[25vw] duration-700 rounded-lg blog-img h-[30vh] overflow-hidden transition-transform  hover:scale-110 '>
+                <div className='w-[25vw] rounded-lg overflow-hidden h-[30vh]  '>
+                  <div className='w-[25vw] duration-700 rounded-lg blog-img h-[30vh] transition-transform  hover:scale-110 '>
                       
+                  </div>
                   </div>
                   <h1 className='montserrat-font text-xl mt-6 tracking-widest font-semibold '>BEST PLACE FOR DATE</h1>
                   <p className='mt-5'>Phasellus lorem enim, luctus ut velit eget, con- <br />vallis egestas eros.</p>
                   <a href='' className='py-2 mt-4 hover:text-red-600 text-xs montserrat-font text-black uppercase bg-white rounded-xl'>CONTINUE READING <IoIosArrowRoundForward className='inline-block mb-1 font-semibold text-2xl' /> </a>
                   </div>
                   <div className=' flex justify-center overflow-hidden rounded-lg flex-col items-start w-[25vw] h-[56vh] '>
-                  <div className='w-[25vw] overflow-hidden duration-700 transition-transform hover:scale-110 rounded-lg blog-img1 h-[30vh] '>
+                    <div className='h-[30vh] w-[25vw] overflow-hidden rounded-lg  '>
+                  <div className='w-[25vw] duration-700 transition-transform hover:scale-110 rounded-lg blog-img1 h-[30vh] '>
                  
+                  </div>
                   </div>
                   <h1 className='montserrat-font text-xl mt-6 tracking-widest font-semibold '>EGGS AND CHEESE</h1>
                   <p className='mt-5'>Aliquam eget aliquam magna, quis posuere risus <br /> ac justo ipsum nibh urna</p>
                   <a href='' className=' py-2 mt-4 text-xs hover:text-red-600 montserrat-font text-black  uppercase bg-white rounded-xl'>CONTINUE READING <IoIosArrowRoundForward className='inline-block mb-1 font-semibold text-2xl' /></a>
                   </div>
                   <div className='flex justify-center flex-col overflow-hidden rounded-lg items-start w-[25vw] h-[56vh] '>
-                  <div className='w-[25vw] overflow-hidden transition-transform duration-700 hover:scale-110 rounded-lg  blog-img2 h-[30vh] '>
+                    <div className='w-[25vw] h-[30vh] overflow-hidden rounded-lg  '>
+                  <div className='w-[25vw] transition-transform duration-700 hover:scale-110 rounded-lg  blog-img2 h-[30vh] '>
                 
+                  </div>
                   </div>
                   <h1 className='montserrat-font text-xl mt-6 tracking-widest font-semibold '>STYLE THE WEDDING PARTY</h1>
                   <p className='mt-5'>Sed ornare ligula eget tortor tempor, quis porta <br /> tellus dictum.</p>
