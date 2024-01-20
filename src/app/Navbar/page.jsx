@@ -24,7 +24,9 @@ function page() {
             <Link href="/About">
             <li className='hover:text-red-600 duration-500 cursor-pointer'>ABOUT</li>
             </Link> 
+            <Link href="/Blog">
             <li className='hover:text-red-600 duration-500 cursor-pointer'>BLOG</li>
+            </Link>
             <Link href="/Contact">
             <li className='hover:text-red-600 duration-500 cursor-pointer'>CONTACT</li>
             </Link>

@@ -278,4 +278,10 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.blog-img{
+  background-image: url(https://preview.colorlib.com/theme/pato/images/blog-05.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
