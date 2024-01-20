@@ -247,4 +247,29 @@
   background-size: cover;
   background-attachment: fixed;
 }
+.about-img-2{
+  background-image: url(https://preview.colorlib.com/theme/pato/images/bg-cover-video-02.jpg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.chef-img {
+  background-image: url(https://preview.colorlib.com/theme/pato/images/avatar-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.chef-img1{
+  background-image: url(https://preview.colorlib.com/theme/pato/images/avatar-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.chef-img2{
+  background-image: url(https://preview.colorlib.com/theme/pato/images/avatar-05.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
