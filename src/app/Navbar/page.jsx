@@ -20,7 +20,6 @@ function page() {
             <Link href="/Reservation">
             <li className='hover:text-red-600 duration-500 cursor-pointer'>RESERVATION</li>
             </Link>
-            <li className='hover:text-red-600 duration-500 cursor-pointer'>GALLERY</li>
             <Link href="/About">
             <li className='hover:text-red-600 duration-500 cursor-pointer'>ABOUT</li>
             </Link> 
