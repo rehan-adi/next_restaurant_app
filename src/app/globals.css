@@ -279,7 +279,26 @@
   background-size: cover;
 }
 .blog-img{
+  background-image: url(https://preview.colorlib.com/theme/pato/images/blog-15.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blog-bg{
   background-image: url(https://preview.colorlib.com/theme/pato/images/blog-05.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.blog-bg1{
+  background-image: url(https://preview.colorlib.com/theme/pato/images/blog-06.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.blog-bg2{
+  background-image: url(https://preview.colorlib.com/theme/pato/images/blog-04.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
