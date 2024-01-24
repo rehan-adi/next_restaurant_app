@@ -277,6 +277,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: auto;
 }
 .blog-img{
   background-image: url(https://preview.colorlib.com/theme/pato/images/bg-title-page-03.jpg.webp);
