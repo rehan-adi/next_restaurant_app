@@ -34,7 +34,7 @@ function page() {
 
         </ul>
           </div>
-       <div className='flex items-center gap-5'>
+       <div className='flex items-center gap-6'>
        <div className='flex items-center justify-center gap-3'>
            <span><FaFacebookF  className='text-lg hover:text-red-600 duration-500 cursor-pointer text-white' /></span>
            <span><FaInstagram className='text-lg hover:text-red-600 duration-500 cursor-pointer text-white'  /></span>
