@@ -3,10 +3,11 @@ import React from 'react'
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { SiSwiggy } from "react-icons/si";
+import { RiMenu3Fill } from "react-icons/ri";
 
 function page() {
   return (
-    <nav className='w-screen montserrat-font h-[12vh] px-5 fixed text-white flex justify-around items-center'>
+    <nav className='w-screen montserrat-font h-[12vh] px-1 fixed text-white flex justify-around items-center'>
         <div className='flex justify-center items-center'>
             <img src="https://preview.colorlib.com/theme/pato/images/icons/logo.png" alt="" />
         </div>
@@ -33,14 +34,14 @@ function page() {
 
         </ul>
           </div>
-       <div className='flex items-center gap-2'>
-       <div className='flex items-center gap-3'>
+       <div className='flex items-center gap-5'>
+       <div className='flex items-center justify-center gap-3'>
            <span><FaFacebookF  className='text-lg hover:text-red-600 duration-500 cursor-pointer text-white' /></span>
            <span><FaInstagram className='text-lg hover:text-red-600 duration-500 cursor-pointer text-white'  /></span>
            <span><SiSwiggy  className='text-lg hover:text-red-600 duration-500 cursor-pointer text-white'  /></span>
         </div>
         <div className='md:hidden'>
-        <button className='text-white'>Menu
+        <button className='text-white'><RiMenu3Fill className='text-xl mt-2' />
         </button>
       </div>
        </div>
