@@ -110,7 +110,7 @@ function page() {
           </div>
         </div>
       </div>
-      <div className='w-auto flex justify-center flex-col gap-20 items-center h-[180vh] bg-green-700'>
+      <div className='w-auto flex justify-center mt-10 flex-col gap-20 items-center h-[180vh] bg-gray-100'>
         <div>
           <h3 className='courgette-font text-center text-3xl text-red-600'>Reservation</h3>
           <h1 className='text-4xl mt-4 text-center montserrat-font text-black tracking-widest font-bold'>BOOK TABLE</h1>
@@ -156,14 +156,14 @@ function page() {
         </div>
       </div>
 
-      <div className='h-[95vh] w-auto '>
+      <div className='h-[120vh] flex justify-center items-center flex-col bg-white w-auto '>
         <div>
           <h3 className='courgette-font text-center mt-10 text-3xl text-red-600'>Latest News</h3>
-          <h1 className='text-5xl mt-4 text-center montserrat-font text-black tracking-widest font-bold'>THE BLOG</h1>
+          <h1 className='text-4xl mt-4 text-center montserrat-font text-black tracking-widest font-bold'>THE BLOG</h1>
         </div>
-        <div className='h-[80vh] flex items-center gap-6 justify-center w-auto bg-white'>
-          <div className='w-[25vw] flex justify-center rounded-lg overflow-hidden flex-col items-start h-[56vh]  '>
-            <div className='w-[25vw] rounded-lg overflow-hidden h-[30vh]  '>
+        <div className='h-[300vh] flex items-center gap-6 flex-col w-[100vw] justify-center bg-red-500'>
+          <div className='w-[85vw] flex justify-center rounded-lg overflow-hidden flex-col items-start h-[56vh]  '>
+            <div className='w-[85vw] rounded-lg overflow-hidden h-[30vh]  '>
               <div className='w-[25vw] duration-700 rounded-lg blog-img h-[30vh] transition-transform  hover:scale-110 '>
 
               </div>
