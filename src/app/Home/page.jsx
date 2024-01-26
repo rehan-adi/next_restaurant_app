@@ -45,19 +45,19 @@ function page() {
           <p className='mt-5 opacity-80'>Phasellus lorem enim, luctus ut velit eget, con- vallis egestas eros.</p>
           <a href='' className='py-2 mt-4 hover:text-red-600 text-xs montserrat-font text-black uppercase bg-white rounded-xl'>LEARN MORE <IoIosArrowRoundForward className='inline-block mb-1 font-semibold text-2xl' /> </a>
         </div>
-        <div className=' flex justify-center overflow-hidden rounded-lg flex-col items-start w-[25vw] h-[56vh] '>
-          <div className='w-[25vw] h-[30vh] rounded-lg  overflow-hidden '>
-            <div className='w-[25vw] duration-700 transition-transform hover:scale-110 rounded-lg bg-img3 h-[30vh] '>
+        <div className=' flex justify-center overflow-hidden rounded-lg flex-col items-start w-[85vw] h-[56vh] '>
+          <div className='w-[85vw] h-[30vh] rounded-lg  overflow-hidden '>
+            <div className='w-[85vw] duration-700 transition-transform hover:scale-110 rounded-lg bg-img3 h-[30vh] '>
 
             </div>
           </div>
-          <h1 className='montserrat-font text-xl mt-6 tracking-widest font-semibold '>DELICIOUS FOOD</h1>
-          <p className='mt-5'>Aliquam eget aliquam magna, quis posuere risus <br /> ac justo ipsum nibh urna</p>
+          <h1 className='montserrat-font text-xl mt-6 opacity-80 tracking-widest font-semibold '>DELICIOUS FOOD</h1>
+          <p className='mt-5'>Aliquam eget aliquam magna, quis posuere risus ac justo ipsum nibh urna</p>
           <a href='' className=' py-2 mt-4 text-xs hover:text-red-600 montserrat-font text-black  uppercase bg-white rounded-xl'>LEARN MORE <IoIosArrowRoundForward className='inline-block mb-1 font-semibold text-2xl' /></a>
         </div>
-        <div className='flex justify-center flex-col overflow-hidden rounded-lg items-start w-[25vw] h-[56vh] '>
-          <div className='h-[30vh] overflow-hidden w-[25vw] rounded-lg  '>
-            <div className='w-[25vw] transition-transform duration-700 hover:scale-110 rounded-lg  bg-img4 h-[30vh] '>
+        <div className='flex justify-center flex-col overflow-hidden rounded-lg items-start w-[85vw] h-[56vh] '>
+          <div className='h-[30vh] overflow-hidden w-[85vw] rounded-lg  '>
+            <div className='w-[85vw] transition-transform duration-700 hover:scale-110 rounded-lg  bg-img4 h-[30vh] '>
 
             </div>
           </div>
