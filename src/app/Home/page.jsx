@@ -9,7 +9,7 @@ export const metadata = {
 
 function page() {
   return (
-    <main className='h-[700vh]  text-black w-auto '>
+    <main className='h-[1110vh]  text-black w-auto '>
       <div className='img-1 text-white flex justify-center items-center flex-col w-full h-[100vh]'>
         <h2 className='text-3xl courgette-font font-medium'>Welcome to </h2>
         <h1 className='text-4xl mt-6 montserrat-font tracking-widest font-bold'>PATO PLACE</h1>
@@ -66,12 +66,12 @@ function page() {
           <a href='' className='py-2 mt-4 hover:text-red-600 text-xs montserrat-font text-black  uppercase bg-white rounded-xl'>LEARN MORE <IoIosArrowRoundForward className='inline-block mb-1 font-semibold text-2xl' /></a>
         </div>
       </div>
-      <div className='h-[150vh] w-auto bg-white'>
+      <div className='h-[270vh] w-auto bg-white'>
         <div className='flex flex-col justify-center items-center pt-8'>
           <h3 className='courgette-font text-3xl text-red-600'>Discover</h3>
-          <h1 className='text-5xl mt-6 montserrat-font text-black tracking-widest font-bold'>PATO PLACE</h1>
+          <h1 className='text-4xl mt-6 montserrat-font text-black tracking-widest font-bold'>PATO PLACE</h1>
         </div>
-        <div className='flex justify-center ml-8 items-center mt-16 gap-6'>
+        <div className='flex justify-center ml-8 items-center flex-col mt-16 gap-6'>
           <div className='h-[66vh] w-[54vh] rounded-lg overflow-hidden '>
             <div className='h-[66vh] flex justify-center items-center rounded-lg overflow-hidden duration-500 hover:scale-110 w-[52vh] fish-img'>
               <h1 className='px-8 py-3 bg-white text-2xl opacity-85 duration-700 hover:bg-red-600 hover:text-white text-black tracking-widest font-normal rounded-lg'>LUNCH</h1>
@@ -110,15 +110,15 @@ function page() {
           </div>
         </div>
       </div>
-      <div className='w-auto flex justify-center gap-52 items-center h-[75vh] bg-gray-100'>
+      <div className='w-auto flex justify-center flex-col gap-20 items-center h-[180vh] bg-green-700'>
         <div>
           <h3 className='courgette-font text-center text-3xl text-red-600'>Reservation</h3>
-          <h1 className='text-5xl mt-4 text-center montserrat-font text-black tracking-widest font-bold'>BOOK TABLE</h1>
+          <h1 className='text-4xl mt-4 text-center montserrat-font text-black tracking-widest font-bold'>BOOK TABLE</h1>
 
 
           <form action="https://getform.io/f/27a37c55-c816-4e96-a915-bcc97fa17702" method="POST">
 
-            <div className="mb-4 mt-12 gap-8 flex">
+            <div className="mb-4 mt-12 gap-8 flex justify-center items-center flex-col">
               <div>
               <label for="name" className="block text-sm mb-2">Name</label>
               <input type="text" id="name" placeholder='Name' name="name" required
@@ -130,7 +130,7 @@ function page() {
                 className="border-2 outline-none border-[#d9d9d9] pl-5 rounded-lg pr-12 py-3" />
                 </div>
             </div>
-            <div className="mb-4 gap-8 flex">
+            <div className="mb-4 gap-8 flex justify-center items-center flex-col">
               <div>
               <label for="people" className="block text-sm mb-2">People</label>
               <input type="number" placeholder='People' id="people" name="people" required
@@ -149,8 +149,8 @@ function page() {
           </form>
 
         </div>
-        <div className='w-[25vw] h-[52vh] rounded-lg overflow-hidden'>
-          <div className='w-[25vw]  rounded-lg  hover:scale-110 duration-500 img-date h-[52vh]'>
+        <div className='w-[85vw] h-[52vh] rounded-lg overflow-hidden'>
+          <div className='w-[85vw]  rounded-lg  hover:scale-110 duration-500 img-date h-[52vh]'>
 
           </div>
         </div>
