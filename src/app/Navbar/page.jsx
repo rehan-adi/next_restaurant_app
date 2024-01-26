@@ -5,6 +5,7 @@ import React, { useState } from 'react';
 import { FaFacebookF, FaInstagram } from 'react-icons/fa';
 import { SiSwiggy } from 'react-icons/si';
 import { RiMenu3Fill } from 'react-icons/ri';
+import { RxCross2 } from "react-icons/rx";
 
 function Page() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -60,31 +61,35 @@ function Page() {
           </button>
         </div>
       </div>
-      {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className='lg:hidden fixed inset-0 bg-black bg-opacity-75 z-50'>
-          <div className='p-4 text-white w-[100vw] fixed right-0 top-0 h-full bg-black'>
-            <div className='text-white cursor-pointer mb-2' onClick={toggleMenu}>
-              Close
+        <div className='lg:hidden fixed inset-0 bg- bg-opacity-75 z-50'>
+          <div className='pt-4 px-20 w-[100vw]  fixed bg-white right-0 top-0 h-full text-black'>
+            <div className='text-white pt-4 pl-24 cursor-pointer mb-2' onClick={toggleMenu}>
+             <span className='text-black'><RxCross2 className='text-2xl' /></span>
             </div>
-            <Link href='/'>
-              <div className='hover:text-red-600 duration-500 cursor-pointer mb-2'>HOME</div>
+          <div className='pt-16 flex gap-3 flex-col'>
+          <Link href='/'>
+              <div className='hover:text-red-600 text-sm duration-500 cursor-pointer mb-2'>HOME</div>
             </Link>
             <Link href='/Menu'>
-              <div className='hover:text-red-600 duration-500 cursor-pointer mb-2'>MENU</div>
-            </Link>
-            <Link href='/Reservation'>
-              <div className='hover:text-red-600 duration-500 cursor-pointer mb-2'>RESERVATION</div>
+              <div className='hover:text-red-600 text-sm duration-500 cursor-pointer mb-2'>MENU</div>
             </Link>
             <Link href='/About'>
-              <div className='hover:text-red-600 duration-500 cursor-pointer mb-2'>ABOUT</div>
+              <div className='hover:text-red-600 text-sm duration-500 cursor-pointer mb-2'>ABOUT</div>
             </Link>
             <Link href='/Blog'>
-              <div className='hover:text-red-600 duration-500 cursor-pointer mb-2'>BLOG</div>
+              <div className='hover:text-red-600 text-sm duration-500 cursor-pointer mb-2'>BLOG</div>
             </Link>
             <Link href='/Contact'>
-              <div className='hover:text-red-600 duration-500 cursor-pointer mb-2'>CONTACT</div>
+              <div className='hover:text-red-600 text-sm duration-500 cursor-pointer mb-2'>CONTACT</div>
             </Link>
+            <Link href='/Reservation'>
+              <div className='hover:text-red-600 text-sm duration-500 cursor-pointer mb-2'>RESERVATION</div>
+            </Link>
+          </div>
+          <div>
+              <h1>GALARREY</h1>
+          </div>
           </div>
         </div>
       )}
