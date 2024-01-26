@@ -29,7 +29,7 @@ function page() {
             <a href='' className='py-2 mt-10 lg:mt-0 hover:text-red-600 text-xs montserrat-font text-black uppercase bg-white rounded-xl'>CONTINUE READING <IoIosArrowRoundForward className='inline-block mb-1 font-semibold text-2xl' /> </a>
           </div>
           </div>
-            <div className='mt-20 flex justify-center items-center flex-col'>
+            <div className='mt-20 flex w-auto justify-center items-center flex-col'>
               <div className='rounded-lg h-[25vh] lg:h-[60vh] lg:w-[70vw] overflow-hidden w-[90vw] '>
           <div className='blog-bg1 rounded-lg hover:scale-110 duration-500 lg:h-[60vh] lg:w-[70vw] h-[25vh] w-[90vw]'>
               
@@ -46,7 +46,7 @@ function page() {
              <a href='' className='py-2 mt-10 lg:mt-0 hover:text-red-600 text-xs montserrat-font text-black uppercase bg-white rounded-xl'>CONTINUE READING <IoIosArrowRoundForward className='inline-block mb-1 font-semibold text-2xl' /> </a>
           </div>
           </div>
-            <div className='mt-20 flex justify-center items-center flex-col'>
+            <divvv className='mt-20 flex justify-center items-center flex-col'>
               <div className='rounded-lg h-[25vh] w-[90vw] lg:h-[60vh] lg:w-[70vw] overflow-hidden '>
           <div className='blog-bg2 rounded-lg hover:scale-110 duration-500 lg:h-[60vh] lg:w-[70vw] h-[25vh] w-[90vw]'>
               
@@ -62,7 +62,7 @@ function page() {
              </div>
              <a href='' className='py-2 mt-10 pb-10 lg:mt-0 hover:text-red-600 text-xs montserrat-font text-black uppercase bg-white rounded-xl'>CONTINUE READING <IoIosArrowRoundForward className='inline-block mb-1 font-semibold text-2xl' /> </a>
           </div>
-          </div>
+          </divvv>
           </div>
     </div>
   )
