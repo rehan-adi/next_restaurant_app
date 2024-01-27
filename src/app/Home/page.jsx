@@ -9,30 +9,30 @@ export const metadata = {
 
 function page() {
   return (
-    <main className='h-[1110vh]  text-black w-auto '>
+    <main className='h-[980vh]  text-black max-w-[100vw] overflow-hidden '>
       <div className='img-1 text-white flex justify-center items-center flex-col w-full h-[100vh]'>
-        <h2 className='text-3xl courgette-font font-medium'>Welcome to </h2>
-        <h1 className='text-4xl mt-6 montserrat-font tracking-widest font-bold'>PATO PLACE</h1>
+        <h2 className='text-3xl lg:text-5xl courgette-font font-medium'>Welcome to </h2>
+        <h1 className='text-4xl lg:text-7xl mt-6 montserrat-font tracking-widest font-bold'>PATO PLACE</h1>
         <button className='px-7 py-3 mt-12 text-xs montserrat-font uppercase bg-white text-red-600 hover:bg-red-600 duration-500 hover:text-white rounded-xl'>Look Menu</button>
       </div>
-      <div className='h-[105vh] flex flex-col justify-center gap-10 items-center w-auto bg-white '>
+      <div className='h-[90vh] lg:justify-center lg:items-center flex flex-col lg:flex-row justify-center gap-10 lg:gap-36 items-center w-auto bg-white '>
         <div className=''>
-          <h2 className='courgette-font text-2xl text-center text-red-600'>Italian Restaurant</h2>
-          <h1 className='montserrat-font mt-4 text-4xl tracking-widest text-center font-extrabold'>WELCOME</h1>
-          <div className='w-[80vw] h-[15vh]'>
-          <p className=' text-center mt-10 text-sm font-semibold opacity-65'>Donec quis lorem nulla. Nunc eu odio mi. Morbi nec lobortis est. Sed fringilla, nunc sed imperdiet lacinia, nisl ante egestas mi, ac facilisis ligula sem id neque.</p>
+          <h2 className='courgette-font text-2xl text-center lg:text-3xl text-red-600'>Italian Restaurant</h2>
+          <h1 className='montserrat-font mt-4 text-4xl tracking-widest text-center lg:text-5xl font-extrabold'>WELCOME</h1>
+          <div className='w-[80vw] lg:h-[10vh] lg:w-[33vw] h-[15vh]'>
+          <p className=' text-center mt-10 text-sm lg:text-base font-semibold opacity-80'>Donec quis lorem nulla. Nunc eu odio mi. Morbi nec lobortis est. Sed fringilla, nunc sed imperdiet lacinia, nisl ante egestas mi, ac facilisis ligula sem id neque.</p>
           </div>
-          <p className='hover:text-red-500 mt-0 text-sm opacity-65 text-center duration-500'>OUR STORY <IoIosArrowRoundForward className='inline-block mb-1 font-semibold text-2xl' /> </p>
+          <p className='hover:text-red-500 mt-0 text-sm lg:pt-8 opacity-65 text-center duration-500'>OUR STORY <IoIosArrowRoundForward className='inline-block mb-1 font-semibold text-2xl' /> </p>
         </div>
-        <div className='w-[80vw] rounded-xl h-[50vh] overflow-hidden'>
-          <div className='w-[80vw] rounded-xl hover:scale-110 duration-500 h-[50vh]'>
+        <div className='w-[80vw] lg:w-[25vw] rounded-xl h-[50vh] overflow-hidden'>
+          <div className='w-[80vw] lg:w-[25vw] rounded-xl hover:scale-110 duration-500 h-[50vh]'>
             <img src="https://preview.colorlib.com/theme/pato/images/our-story-01.jpg" alt="" />
           </div>
         </div>
       </div>
       <div className='h-[60vh] flex justify-center items-center flex-col w-auto bg-img1'>
         <h3 className='courgette-font text-3xl text-red-600'>Discover</h3>
-        <h1 className='text-4xl mt-6 montserrat-font text-white tracking-widest font-bold'>PATO PLACE</h1>
+        <h1 className='text-4xl mt-6 lg:text-5xl montserrat-font text-white tracking-widest font-bold'>PATO PLACE</h1>
       </div>
       <div className='h-[210vh] flex items-center flex-col gap-6 justify-center w-auto bg-white'>
         <div className='w-[85vw] flex justify-center rounded-lg overflow-hidden flex-col items-start h-[56vh]  '>
@@ -66,7 +66,7 @@ function page() {
           <a href='' className='py-2 mt-4 hover:text-red-600 text-xs montserrat-font text-black  uppercase bg-white rounded-xl'>LEARN MORE <IoIosArrowRoundForward className='inline-block mb-1 font-semibold text-2xl' /></a>
         </div>
       </div>
-      <div className='h-[270vh] w-auto bg-white'>
+      <div className='h-[100vh] w-auto bg-white'>
         <div className='flex flex-col justify-center items-center pt-8'>
           <h3 className='courgette-font text-3xl text-red-600'>Discover</h3>
           <h1 className='text-4xl mt-6 montserrat-font text-black tracking-widest font-bold'>PATO PLACE</h1>

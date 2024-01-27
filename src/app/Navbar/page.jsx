@@ -87,9 +87,6 @@ function Page() {
               <div className='hover:text-red-600 text-sm duration-500 cursor-pointer mb-2'>RESERVATION</div>
             </Link>
           </div>
-          <div>
-              <h1>GALARREY</h1>
-          </div>
           </div>
         </div>
       )}
