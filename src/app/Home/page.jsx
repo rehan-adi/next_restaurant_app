@@ -15,7 +15,7 @@ function page() {
         <h1 className='text-4xl lg:text-7xl mt-6 montserrat-font tracking-widest font-bold'>PATO PLACE</h1>
         <button className='px-7 py-3 mt-12 text-xs montserrat-font uppercase bg-white text-red-600 hover:bg-red-600 duration-500 hover:text-white rounded-xl'>Look Menu</button>
       </div>
-      <div className='h-[90vh] lg:justify-center lg:items-center flex flex-col lg:flex-row justify-center gap-10 lg:gap-36 items-center w-auto bg-white '>
+      <div className='h-[80vh] lg:justify-center lg:items-center flex flex-col lg:flex-row justify-center gap-10 lg:gap-36 items-center w-auto bg-white '>
         <div className=''>
           <h2 className='courgette-font text-2xl text-center lg:text-3xl text-red-600'>Italian Restaurant</h2>
           <h1 className='montserrat-font mt-4 text-4xl tracking-widest text-center lg:text-5xl font-extrabold'>WELCOME</h1>
@@ -34,10 +34,10 @@ function page() {
         <h3 className='courgette-font text-3xl text-red-600'>Discover</h3>
         <h1 className='text-4xl mt-6 lg:text-5xl montserrat-font text-white tracking-widest font-bold'>PATO PLACE</h1>
       </div>
-      <div className='h-[210vh] flex items-center flex-col gap-6 justify-center w-auto bg-white'>
+      <div className='h-[150vh] flex items-center lg:gap-0 lg:flex-row flex-col gap-6 justify-center w-auto bg-white'>
         <div className='w-[85vw] flex justify-center rounded-lg overflow-hidden flex-col items-start h-[56vh]  '>
-          <div className='h-[30vh] w-[85vw] overflow-hidden rounded-lg'>
-            <div className='w-[85vw] duration-700 rounded-lg bg-img2 h-[30vh] transition-transform  hover:scale-110 '>
+          <div className='h-[30vh] w-[85vw] lg:w-[25vw] overflow-hidden rounded-lg'>
+            <div className='w-[85vw] lg:w-[25vw] duration-700 rounded-lg bg-img2 h-[30vh] transition-transform  hover:scale-110 '>
 
             </div>
           </div>
@@ -46,9 +46,8 @@ function page() {
           <a href='' className='py-2 mt-4 hover:text-red-600 text-xs montserrat-font text-black uppercase bg-white rounded-xl'>LEARN MORE <IoIosArrowRoundForward className='inline-block mb-1 font-semibold text-2xl' /> </a>
         </div>
         <div className=' flex justify-center overflow-hidden rounded-lg flex-col items-start w-[85vw] h-[56vh] '>
-          <div className='w-[85vw] h-[30vh] rounded-lg  overflow-hidden '>
-            <div className='w-[85vw] duration-700 transition-transform hover:scale-110 rounded-lg bg-img3 h-[30vh] '>
-
+          <div className='w-[85vw] lg:w-[25vw] h-[30vh] rounded-lg  overflow-hidden '>
+            <div className='w-[85vw] lg:w-[25vw] duration-700 transition-transform hover:scale-110 rounded-lg bg-img3 h-[30vh] '>
             </div>
           </div>
           <h1 className='montserrat-font text-xl mt-6 opacity-80 tracking-widest font-semibold '>DELICIOUS FOOD</h1>
@@ -56,8 +55,8 @@ function page() {
           <a href='' className=' py-2 mt-4 text-xs hover:text-red-600 montserrat-font text-black  uppercase bg-white rounded-xl'>LEARN MORE <IoIosArrowRoundForward className='inline-block mb-1 font-semibold text-2xl' /></a>
         </div>
         <div className='flex justify-center flex-col overflow-hidden rounded-lg items-start w-[85vw] h-[56vh] '>
-          <div className='h-[30vh] overflow-hidden w-[85vw] rounded-lg  '>
-            <div className='w-[85vw] transition-transform duration-700 hover:scale-110 rounded-lg  bg-img4 h-[30vh] '>
+          <div className='h-[30vh] lg:w-[25vw] overflow-hidden w-[85vw] rounded-lg  '>
+            <div className='w-[85vw] lg:w-[25vw] transition-transform duration-700 hover:scale-110 rounded-lg  bg-img4 h-[30vh] '>
 
             </div>
           </div>
