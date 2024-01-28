@@ -9,7 +9,7 @@ export const metadata = {
 
 function page() {
   return (
-    <main className='h-[980vh]  text-black max-w-[100vw] overflow-hidden '>
+    <main className='h-[980vh] lg:h-[700vh] text-black max-w-[100vw] overflow-hidden '>
       <div className='img-1 text-white flex justify-center items-center flex-col w-full h-[100vh]'>
         <h2 className='text-3xl lg:text-5xl courgette-font font-medium'>Welcome to </h2>
         <h1 className='text-4xl lg:text-7xl mt-6 montserrat-font tracking-widest font-bold'>PATO PLACE</h1>
@@ -108,15 +108,15 @@ function page() {
           </div>
         </div>
       </div>
-      <div className='w-auto flex justify-center mt-10 flex-col gap-20 items-center h-[230vh] bg-gray-100'>
+      <div className='w-auto flex justify-center lg:flex-row mt-10 flex-col gap-20 items-center h-[230vh] lg:h-[90vh] '>
         <div>
           <h3 className='courgette-font text-center text-3xl text-red-600'>Reservation</h3>
-          <h1 className='text-4xl mt-4 text-center montserrat-font text-black tracking-widest font-bold'>BOOK TABLE</h1>
+          <h1 className='text-4xl lg:text-5xl mt-4 text-center montserrat-font text-black tracking-widest font-bold'>BOOK TABLE</h1>
 
 
           <form action="https://getform.io/f/27a37c55-c816-4e96-a915-bcc97fa17702" method="POST">
 
-            <div className="mb-4 mt-12 gap-8 flex justify-center items-center flex-col">
+            <div className="mb-4 mt-12 gap-8 flex justify-center lg:flex-row items-center flex-col">
               <div>
               <label for="name" className="block text-sm mb-2">Name</label>
               <input type="text" id="name" placeholder='Name' name="name" required
@@ -128,7 +128,7 @@ function page() {
                 className="border-2 outline-none border-[#d9d9d9] pl-5 rounded-lg pr-12 py-3" />
                 </div>
             </div>
-            <div className="mb-4 gap-8 flex justify-center items-center flex-col">
+            <div className="mb-4 gap-8 flex justify-center items-center lg:flex-row flex-col">
               <div>
               <label for="people" className="block text-sm mb-2">People</label>
               <input type="number" placeholder='People' id="people" name="people" required
@@ -147,19 +147,19 @@ function page() {
           </form>
 
         </div>
-        <div className='w-[85vw] h-[52vh] rounded-lg overflow-hidden'>
-          <div className='w-[85vw]  rounded-lg  hover:scale-110 duration-500 img-date h-[52vh]'>
+        <div className='w-[85vw] h-[52vh] lg:w-[25vw] rounded-lg overflow-hidden'>
+          <div className='w-[85vw] lg:w-[25vw] rounded-lg  hover:scale-110 duration-500 img-date h-[52vh]'>
 
           </div>
         </div>
       </div>
 
-      <div className='h-[120vh] flex justify-center items-center flex-col bg-white w-auto '>
+      <div className='h-[120vh] lg:h-[200vh] flex justify-center items-center flex-col bg-white w-auto '>
         <div>
           <h3 className='courgette-font text-center mt-10 text-3xl text-red-600'>Latest News</h3>
           <h1 className='text-4xl mt-4 text-center montserrat-font text-black tracking-widest font-bold'>THE BLOG</h1>
         </div>
-        <div className='h-[300vh] flex items-center gap-6 flex-col w-[100vw] justify-center bg-red-500'>
+        <div className='h-[300vh] flex items-center gap-6 flex-col w-[100vw] justify-center '>
           <div className='w-[85vw] flex justify-center rounded-lg overflow-hidden flex-col items-start h-[56vh]  '>
             <div className='w-[85vw] rounded-lg overflow-hidden h-[30vh]  '>
               <div className='w-[25vw] duration-700 rounded-lg blog-img h-[30vh] transition-transform  hover:scale-110 '>
