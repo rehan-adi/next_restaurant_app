@@ -104,7 +104,7 @@ function page() {
                      <p>$21.89</p>
                   </div>
                   </div>
-                     <divv>
+                     <div>
                   <h1 className='tracking-widest text-black mb-9 text-2xl font-semibold'>DESSERT</h1>
                   <div className='flex gap-6  mb-9 items-center'>
                      <p>PINE NUT SBRISALONA</p>
@@ -121,12 +121,17 @@ function page() {
                      <p className='tracking'> ................</p>
                      <p className='ml-1'>$25.80</p>
                   </div>
-                  <div className='flex items-center gap-6'>
+                  <div className='flex mb-9 items-center gap-6'>
                      <p>CONSECTETUR</p>
                      <p className='tracking'>................</p>
                      <p>$21.89</p>
                   </div>
-                  </divv>
+                  <div className='flex items-center gap-6'>
+                     <p className='uppercase'>Gulab Jamoon</p>
+                     <p className='tracking'>...............</p>
+                     <p>$61.56</p>
+                  </div>
+                  </div>
                   </div>
                  <div className=' flex justify-center items-center menu-bg1  mt-16 h-[55vh] w-auto'>
                  <h1 className='text-5xl mt-6 text-white montserrat-font z-50 opacity-100 tracking-widest font-bold'>LUNCH</h1>
