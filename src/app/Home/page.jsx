@@ -15,7 +15,7 @@ function page() {
         <h1 className='text-4xl lg:text-7xl mt-6 montserrat-font tracking-widest font-bold'>PATO PLACE</h1>
         <button className='px-7 py-3 mt-12 text-xs montserrat-font uppercase bg-white text-red-600 hover:bg-red-600 duration-500 hover:text-white rounded-xl'>Look Menu</button>
       </div>
-      <div className='h-[80vh] lg:justify-center lg:items-center flex flex-col lg:flex-row justify-center gap-10 lg:gap-36 items-center w-auto bg-white '>
+      <div className='h-[95vh] lg:justify-center lg:items-center flex flex-col lg:flex-row justify-center gap-10 lg:gap-36 items-center w-auto bg-white '>
         <div className=''>
           <h2 className='courgette-font text-2xl text-center lg:text-3xl text-red-600'>Italian Restaurant</h2>
           <h1 className='montserrat-font mt-4 text-4xl tracking-widest text-center lg:text-5xl font-extrabold'>WELCOME</h1>
@@ -34,7 +34,7 @@ function page() {
         <h3 className='courgette-font text-3xl text-red-600'>Discover</h3>
         <h1 className='text-4xl mt-6 lg:text-5xl montserrat-font text-white tracking-widest font-bold'>PATO PLACE</h1>
       </div>
-      <div className='h-[150vh] lg:h-[90vh] pl-40 flex items-center lg:gap-5 lg:flex-row flex-col gap-6 justify-center w-auto lg:justify-center lg:items-center bg-white'>
+      <div className='h-[200vh] lg:h-[90vh] lg:pl-40 flex items-center lg:gap-5 lg:flex-row flex-col gap-6 justify-center w-auto lg:justify-center lg:items-center bg-white'>
       <div className=' flex justify-center overflow-hidden rounded-lg flex-col items-start w-[85vw] h-[56vh] lg:w-[45vw] '>
           <div className='w-[85vw] lg:w-[25vw] h-[30vh]  rounded-lg  overflow-hidden '>
             <div className='w-[85vw] lg:w-[25vw]  duration-700 transition-transform hover:scale-110 rounded-lg bg-img2 h-[30vh] '>
@@ -64,12 +64,12 @@ function page() {
           <a href='' className='py-2 mt-4 hover:text-red-600 text-xs montserrat-font text-black  uppercase bg-white rounded-xl'>LEARN MORE <IoIosArrowRoundForward className='inline-block mb-1 font-semibold text-2xl' /></a>
         </div>
       </div>
-      <div className='h-[100vh] w-auto bg-white'>
+      <div className='h-[275vh] lg:h-[155vh] lg:flex lg:flex-col lg:justify-center lg:items-center w-auto'>
         <div className='flex flex-col justify-center items-center pt-8'>
           <h3 className='courgette-font text-3xl text-red-600'>Discover</h3>
           <h1 className='text-4xl mt-6 montserrat-font text-black tracking-widest font-bold'>PATO PLACE</h1>
         </div>
-        <div className='flex justify-center ml-8 items-center flex-col mt-16 gap-6'>
+        <div className='flex justify-center ml-8 lg:flex-row items-center flex-col mt-16 gap-6'>
           <div className='h-[66vh] w-[54vh] rounded-lg overflow-hidden '>
             <div className='h-[66vh] flex justify-center items-center rounded-lg overflow-hidden duration-500 hover:scale-110 w-[52vh] fish-img'>
               <h1 className='px-8 py-3 bg-white text-2xl opacity-85 duration-700 hover:bg-red-600 hover:text-white text-black tracking-widest font-normal rounded-lg'>LUNCH</h1>
@@ -93,9 +93,9 @@ function page() {
             </div>
           </div>
         </div>
-        <div className='flex justify-center ml-8 items-center mt-16 gap-7'>
-          <div className='h-[31vh] w-[111vh] rounded-lg overflow-hidden '>
-            <div className='h-[31vh] flex justify-center items-center rounded-lg overflow-hidden duration-500 hover:scale-110 w-[111vh] happy-img'>
+        <div className='flex justify-center flex-col lg:pl-8 lg:flex-row items-center mt-16 gap-7'>
+          <div className='h-[31vh] lg:w-[53vw] w-[90vw] rounded-lg overflow-hidden '>
+            <div className='h-[31vh] lg:w-[53vw] flex justify-center items-center rounded-lg overflow-hidden duration-500 hover:scale-110 w-[90vw] happy-img'>
               <h1 className='px-8 py-3 bg-white text-2xl opacity-85 duration-700 hover:bg-red-600 hover:text-white text-black tracking-widest font-normal rounded-lg'>HAPPY HOUR</h1>
             </div>
           </div>
@@ -108,7 +108,7 @@ function page() {
           </div>
         </div>
       </div>
-      <div className='w-auto flex justify-center mt-10 flex-col gap-20 items-center h-[180vh] bg-gray-100'>
+      <div className='w-auto flex justify-center mt-10 flex-col gap-20 items-center h-[230vh] bg-gray-100'>
         <div>
           <h3 className='courgette-font text-center text-3xl text-red-600'>Reservation</h3>
           <h1 className='text-4xl mt-4 text-center montserrat-font text-black tracking-widest font-bold'>BOOK TABLE</h1>
