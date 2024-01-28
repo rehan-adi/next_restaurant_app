@@ -34,33 +34,32 @@ function page() {
         <h3 className='courgette-font text-3xl text-red-600'>Discover</h3>
         <h1 className='text-4xl mt-6 lg:text-5xl montserrat-font text-white tracking-widest font-bold'>PATO PLACE</h1>
       </div>
-      <div className='h-[150vh] flex items-center lg:gap-0 lg:flex-row flex-col gap-6 justify-center w-auto bg-white'>
-        <div className='w-[85vw] flex justify-center rounded-lg overflow-hidden flex-col items-start h-[56vh]  '>
-          <div className='h-[30vh] w-[85vw] lg:w-[25vw] overflow-hidden rounded-lg'>
-            <div className='w-[85vw] lg:w-[25vw] duration-700 rounded-lg bg-img2 h-[30vh] transition-transform  hover:scale-110 '>
-
+      <div className='h-[150vh] lg:h-[90vh] pl-40 flex items-center lg:gap-5 lg:flex-row flex-col gap-6 justify-center w-auto lg:justify-center lg:items-center bg-white'>
+      <div className=' flex justify-center overflow-hidden rounded-lg flex-col items-start w-[85vw] h-[56vh] lg:w-[45vw] '>
+          <div className='w-[85vw] lg:w-[25vw] h-[30vh]  rounded-lg  overflow-hidden '>
+            <div className='w-[85vw] lg:w-[25vw]  duration-700 transition-transform hover:scale-110 rounded-lg bg-img2 h-[30vh] '>
             </div>
           </div>
-          <h1 className='montserrat-font text-xl mt-6 tracking-widest font-semibold '>ROMANTICE RESTRUANT</h1>
-          <p className='mt-5 opacity-80'>Phasellus lorem enim, luctus ut velit eget, con- vallis egestas eros.</p>
-          <a href='' className='py-2 mt-4 hover:text-red-600 text-xs montserrat-font text-black uppercase bg-white rounded-xl'>LEARN MORE <IoIosArrowRoundForward className='inline-block mb-1 font-semibold text-2xl' /> </a>
+          <h1 className='montserrat-font text-xl mt-4 tracking-widest font-semibold '>ROMANTIC RESTAURANT</h1>
+          <p className='mt-5'>Phasellus lorem enim, luctus ut velit eget, con-vallis egestas eros.</p>
+          <a href='' className=' py-2 mt-4 text-xs hover:text-red-600 montserrat-font text-black  uppercase bg-white rounded-xl'>LEARN MORE <IoIosArrowRoundForward className='inline-block mb-1 font-semibold text-2xl' /></a>
         </div>
-        <div className=' flex justify-center overflow-hidden rounded-lg flex-col items-start w-[85vw] h-[56vh] '>
-          <div className='w-[85vw] lg:w-[25vw] h-[30vh] rounded-lg  overflow-hidden '>
-            <div className='w-[85vw] lg:w-[25vw] duration-700 transition-transform hover:scale-110 rounded-lg bg-img3 h-[30vh] '>
+        <div className=' flex justify-center  overflow-hidden rounded-lg flex-col items-start w-[85vw] h-[56vh] lg:w-[45vw] '>
+          <div className='w-[85vw] lg:w-[25vw] h-[30vh]  rounded-lg  overflow-hidden '>
+            <div className='w-[85vw] lg:w-[25vw]  duration-700 transition-transform hover:scale-110 rounded-lg bg-img3 h-[30vh] '>
             </div>
           </div>
-          <h1 className='montserrat-font text-xl mt-6 opacity-80 tracking-widest font-semibold '>DELICIOUS FOOD</h1>
+          <h1 className='montserrat-font text-xl mt-4 tracking-widest font-semibold '>DELICIOUS FOOD</h1>
           <p className='mt-5'>Aliquam eget aliquam magna, quis posuere risus ac justo ipsum nibh urna</p>
           <a href='' className=' py-2 mt-4 text-xs hover:text-red-600 montserrat-font text-black  uppercase bg-white rounded-xl'>LEARN MORE <IoIosArrowRoundForward className='inline-block mb-1 font-semibold text-2xl' /></a>
         </div>
-        <div className='flex justify-center flex-col overflow-hidden rounded-lg items-start w-[85vw] h-[56vh] '>
+        <div className='flex justify-center flex-col overflow-hidden rounded-lg items-start lg:w-[60vw] w-[85vw] h-[56vh] '>
           <div className='h-[30vh] lg:w-[25vw] overflow-hidden w-[85vw] rounded-lg  '>
             <div className='w-[85vw] lg:w-[25vw] transition-transform duration-700 hover:scale-110 rounded-lg  bg-img4 h-[30vh] '>
 
             </div>
           </div>
-          <h1 className='montserrat-font text-xl mt-6 tracking-widest font-semibold '>RED WINES YOU LOVE</h1>
+          <h1 className='montserrat-font text-xl mt-4 tracking-widest font-semibold '>RED WINES YOU LOVE</h1>
           <p className='mt-5'>Sed ornare ligula eget tortor tempor, quis porta <br /> tellus dictum.</p>
           <a href='' className='py-2 mt-4 hover:text-red-600 text-xs montserrat-font text-black  uppercase bg-white rounded-xl'>LEARN MORE <IoIosArrowRoundForward className='inline-block mb-1 font-semibold text-2xl' /></a>
         </div>
