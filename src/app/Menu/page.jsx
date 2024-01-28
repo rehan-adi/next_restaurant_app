@@ -98,10 +98,15 @@ function page() {
                      <p className='tracking'> ...................</p>
                      <p className='ml-1'>$25.80</p>
                   </div>
-                  <div className='flex items-center gap-6'>
+                  <div className='flex mb-9 items-center gap-6'>
                      <p>VERGIN MOJITO</p>
                      <p className='tracking'>..................</p>
                      <p>$21.89</p>
+                  </div>
+                  <div className='flex items-center gap-6'>
+                     <p>CHAMPAGNE</p>
+                     <p className='tracking'>....................</p>
+                     <p>$99.21</p>
                   </div>
                   </div>
                      <div>
