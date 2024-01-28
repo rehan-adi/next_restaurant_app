@@ -309,4 +309,16 @@
   line-height: 1.8;
 }
 
+.wine-img{
+  background-image: url(https://preview.colorlib.com/theme/pato/images/blog-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wedding-img{
+  background-image: url(https://preview.colorlib.com/theme/pato/images/blog-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 

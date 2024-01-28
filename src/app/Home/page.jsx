@@ -9,7 +9,7 @@ export const metadata = {
 
 function page() {
   return (
-    <main className='h-[980vh] lg:h-[700vh] text-black max-w-[100vw] overflow-hidden '>
+    <main className='h-[980vh] lg:h-[715vh] text-black max-w-[100vw] overflow-hidden '>
       <div className='img-1 text-white flex justify-center items-center flex-col w-full h-[100vh]'>
         <h2 className='text-3xl lg:text-5xl courgette-font font-medium'>Welcome to </h2>
         <h1 className='text-4xl lg:text-7xl mt-6 montserrat-font tracking-widest font-bold'>PATO PLACE</h1>
@@ -108,7 +108,7 @@ function page() {
           </div>
         </div>
       </div>
-      <div className='w-auto flex justify-center lg:flex-row mt-10 flex-col gap-20 items-center h-[230vh] lg:h-[90vh] '>
+      <div className='w-auto flex justify-center lg:flex-row mt-10 flex-col lg:gap-36 gap-20 items-center h-[230vh] lg:h-[90vh] '>
         <div>
           <h3 className='courgette-font text-center text-3xl text-red-600'>Reservation</h3>
           <h1 className='text-4xl lg:text-5xl mt-4 text-center montserrat-font text-black tracking-widest font-bold'>BOOK TABLE</h1>
@@ -154,43 +154,41 @@ function page() {
         </div>
       </div>
 
-      <div className='h-[120vh] lg:h-[200vh] flex justify-center items-center flex-col bg-white w-auto '>
+      <div className='h-[120vh] lg:h-[100vh] flex justify-center items-center flex-col bg-white w-auto '>
         <div>
           <h3 className='courgette-font text-center mt-10 text-3xl text-red-600'>Latest News</h3>
           <h1 className='text-4xl mt-4 text-center montserrat-font text-black tracking-widest font-bold'>THE BLOG</h1>
         </div>
-        <div className='h-[300vh] flex items-center gap-6 flex-col w-[100vw] justify-center '>
-          <div className='w-[85vw] flex justify-center rounded-lg overflow-hidden flex-col items-start h-[56vh]  '>
-            <div className='w-[85vw] rounded-lg overflow-hidden h-[30vh]  '>
-              <div className='w-[25vw] duration-700 rounded-lg blog-img h-[30vh] transition-transform  hover:scale-110 '>
-
-              </div>
+        <div className='h-[200vh] lg:h-[90vh] flex items-center lg:gap-5 lg:flex-row flex-col gap-6 justify-center w-auto lg:justify-center lg:items-center bg-white'>
+      <div className=' flex justify-center lg:w-[25vw] overflow-hidden rounded-lg flex-col items-start w-[85vw] h-[56vh]'>
+          <div className='w-[85vw] lg:w-[25vw] h-[30vh]  rounded-lg  overflow-hidden '>
+            <div className='w-[85vw] lg:w-[25vw]  duration-700 transition-transform hover:scale-110 rounded-lg wine-img h-[30vh] '>
             </div>
-            <h1 className='montserrat-font text-xl mt-6 tracking-widest font-semibold '>BEST PLACE FOR DATE</h1>
-            <p className='mt-5'>Phasellus lorem enim, luctus ut velit eget, con- <br />vallis egestas eros.</p>
-            <a href='' className='py-2 mt-4 hover:text-red-600 text-xs montserrat-font text-black uppercase bg-white rounded-xl'>CONTINUE READING <IoIosArrowRoundForward className='inline-block mb-1 font-semibold text-2xl' /> </a>
           </div>
-          <div className=' flex justify-center overflow-hidden rounded-lg flex-col items-start w-[25vw] h-[56vh] '>
-            <div className='h-[30vh] w-[25vw] overflow-hidden rounded-lg  '>
-              <div className='w-[25vw] duration-700 transition-transform hover:scale-110 rounded-lg blog-img1 h-[30vh] '>
-
-              </div>
-            </div>
-            <h1 className='montserrat-font text-xl mt-6 tracking-widest font-semibold '>EGGS AND CHEESE</h1>
-            <p className='mt-5'>Aliquam eget aliquam magna, quis posuere risus <br /> ac justo ipsum nibh urna</p>
-            <a href='' className=' py-2 mt-4 text-xs hover:text-red-600 montserrat-font text-black  uppercase bg-white rounded-xl'>CONTINUE READING <IoIosArrowRoundForward className='inline-block mb-1 font-semibold text-2xl' /></a>
-          </div>
-          <div className='flex justify-center flex-col overflow-hidden rounded-lg items-start w-[25vw] h-[56vh] '>
-            <div className='w-[25vw] h-[30vh] overflow-hidden rounded-lg  '>
-              <div className='w-[25vw] transition-transform duration-700 hover:scale-110 rounded-lg  blog-img2 h-[30vh] '>
-
-              </div>
-            </div>
-            <h1 className='montserrat-font text-xl mt-6 tracking-widest font-semibold '>STYLE THE WEDDING PARTY</h1>
-            <p className='mt-5'>Sed ornare ligula eget tortor tempor, quis porta <br /> tellus dictum.</p>
-            <a href='' className='py-2 mt-4 hover:text-red-600 text-xs montserrat-font text-black  uppercase bg-white rounded-xl'>CONTINUE READING  <IoIosArrowRoundForward className='inline-block mb-1 font-semibold text-2xl' /></a>
-          </div>
+          <h1 className='montserrat-font text-xl mt-4 tracking-widest font-semibold '>BEST PLACES FOR WINE</h1>
+          <p className='mt-5'>Phasellus lorem enim, luctus ut velit eget, con-vallis egestas eros.</p>
+          <a href='' className=' py-2 mt-4 text-xs hover:text-red-600 montserrat-font text-black  uppercase bg-white rounded-xl'>Continue Reading <IoIosArrowRoundForward className='inline-block mb-1 font-semibold text-2xl' /></a>
         </div>
+        <div className=' flex justify-center overflow-hidden rounded-lg flex-col items-start w-[85vw] h-[56vh] lg:w-[25vw] '>
+          <div className='w-[85vw] lg:w-[25vw] h-[30vh]  rounded-lg  overflow-hidden '>
+            <div className='w-[85vw]  lg:w-[25vw]  duration-700 transition-transform hover:scale-110 rounded-lg blog-img1 h-[30vh] '>
+            </div>
+          </div>
+          <h1 className='montserrat-font text-xl mt-4 tracking-widest font-semibold '>EGGS AND CHEESE</h1>
+          <p className='mt-5'>Aliquam eget aliquam magna, quis posuere risus ac justo ipsum nibh urna</p>
+          <a href='' className=' py-2 mt-4 text-xs hover:text-red-600 montserrat-font text-black  uppercase bg-white rounded-xl'>Continue Reading <IoIosArrowRoundForward className='inline-block mb-1 font-semibold text-2xl' /></a>
+        </div>
+        <div className='flex justify-center flex-col lg:w-[25vw] overflow-hidden rounded-lg items-start w-[85vw] h-[56vh] '>
+          <div className='h-[30vh] lg:w-[25vw] overflow-hidden w-[85vw] rounded-lg  '>
+            <div className='w-[85vw] lg:w-[25vw] transition-transform duration-700 hover:scale-110 rounded-lg  wedding-img h-[30vh] '>
+
+            </div>
+          </div>
+          <h1 className='montserrat-font text-xl mt-4 tracking-widest font-semibold '>STYLE THE WEDDING PARTY</h1>
+          <p className='mt-5'>Sed ornare ligula eget tortor tempor, quis porta <br /> tellus dictum.</p>
+          <a href='' className='py-2 mt-4 hover:text-red-600 text-xs montserrat-font text-black  uppercase bg-white rounded-xl'>Continue Reading <IoIosArrowRoundForward className='inline-block mb-1 font-semibold text-2xl' /></a>
+        </div>
+      </div>
       </div>
       <div className='bg-gray-100 flex justify-center items-center gap-10 montserrat-font w-auto h-[20vh]'>
         <h1 className='text-2xl tracking-widest font-semibold '>SPECIALS SIGN UP</h1>
