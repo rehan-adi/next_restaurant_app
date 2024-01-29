@@ -59,7 +59,7 @@ function page() {
             </div>
           </div>
           <h1 className='montserrat-font text-xl mt-4 tracking-widest font-semibold '>RED WINES YOU LOVE</h1>
-          <p className='mt-5'>Sed ornare ligula eget tortor tempor, quis porta <br /> tellus dictum.</p>
+          <p className='mt-5'>Sed ornare ligula eget tortor tempor, quis porta tellus dictum.</p>
           <a href='' className='py-2 mt-4 hover:text-red-600 text-xs montserrat-font text-black  uppercase bg-white rounded-xl'>LEARN MORE <IoIosArrowRoundForward className='inline-block mb-1 font-semibold text-2xl' /></a>
         </div>
       </div>
@@ -92,18 +92,18 @@ function page() {
             </div>
           </div>
         </div>
-        <div className='flex justify-center flex-col lg:pl-8 lg:flex-row items-center mt-16 lg:mt-7 gap-7'>
+        <div className='flex justify-center flex-col  lg:flex-row items-center mt-7 lg:mt-7 gap-7'>
           <div className='h-[31vh] lg:w-[53vw] w-[90vw] rounded-lg overflow-hidden '>
             <div className='h-[31vh] lg:w-[53vw] flex justify-center items-center rounded-lg overflow-hidden duration-500 hover:scale-110 w-[90vw] happy-img'>
               <h1 className='px-8 py-3 bg-white text-2xl opacity-85 duration-700 hover:bg-red-600 hover:text-white text-black tracking-widest font-normal rounded-lg'>HAPPY HOUR</h1>
             </div>
           </div>
           <div className='flex flex-col gap-7'>
-            <div className='h-[31vh] overflow-hidden rounded-lg w-[55vh] '>
-              <div className='h-[31vh] flex justify-center items-center hover:scale-110 duration-500 rounded-lg w-[50vh] dessert-img'>
-                <h1 className='px-8 py-3 bg-white text-2xl opacity-85 duration-700 hover:bg-red-600 hover:text-white text-black tracking-widest font-normal rounded-lg'>DESSERT</h1>
-              </div>
+          <div className='h-[31vh] lg:w-[24vw] w-[90vw] rounded-lg overflow-hidden '>
+            <div className='h-[31vh] lg:w-[24vw] flex justify-center items-center rounded-lg overflow-hidden duration-500 hover:scale-110 w-[90vw] dessert-img'>
+              <h1 className='px-8 py-3 bg-white text-2xl opacity-85 duration-700 hover:bg-red-600 hover:text-white text-black tracking-widest font-normal rounded-lg'>DESSERT</h1>
             </div>
+          </div>
           </div>
         </div>
       </div>
@@ -184,7 +184,7 @@ function page() {
             </div>
           </div>
           <h1 className='montserrat-font text-xl mt-4 tracking-widest font-semibold '>STYLE THE WEDDING PARTY</h1>
-          <p className='mt-5'>Sed ornare ligula eget tortor tempor, quis porta <br /> tellus dictum.</p>
+          <p className='mt-5'>Sed ornare ligula eget tortor tempor, quis porta tellus dictum.</p>
           <a href='' className='py-2 mt-4 hover:text-red-600 text-xs montserrat-font text-black  uppercase bg-white rounded-xl'>Continue Reading <IoIosArrowRoundForward className='inline-block mb-1 font-semibold text-2xl' /></a>
         </div>
       </div>
