@@ -8,7 +8,7 @@ export const metadata = {
 
 function page() {
   return (
-    <main className='h-[1170vh] lg:h-[675vh] text-black max-w-[100vw] overflow-hidden '>
+    <main className='h-[1185vh] lg:h-[675vh] text-black max-w-[100vw] overflow-hidden '>
       <div className='img-1 text-white flex justify-center items-center flex-col w-full h-[100vh]'>
         <h2 className='text-3xl lg:text-5xl courgette-font font-medium'>Welcome to </h2>
         <h1 className='text-4xl lg:text-7xl mt-6 montserrat-font tracking-widest font-bold'>PATO PLACE</h1>
@@ -189,10 +189,10 @@ function page() {
         </div>
       </div>
       </div>
-      <div className=' bg-gray-100 flex justify-center items-center gap-10 montserrat-font w-auto h-[20vh]'>
-        <h1 className='text-2xl tracking-widest font-semibold '>SPECIALS SIGN UP</h1>
+      <div className=' bg-gray-100 flex justify-center flex-col lg:flex-row items-center gap-7 lg:gap-10 montserrat-font w-auto h-[35vh] lg:h-[20vh]'>
+        <h1 className='lg:text-2xl text-xl tracking-widest  font-semibold '>SPECIALS SIGN UP</h1>
         <input type="text" className='pr-12 border outline-none border-[#d9d9d9] rounded-lg  pl-4 text-sm py-3' placeholder='Email Address' id="" /><IoMdMail className='inline-block absolute left-[900px]' />
-        <button className='bg-black text-white px-8 py-3 rounded-lg text-sm'>SINGH - UP</button>
+        <button className='bg-black text-white lg:px-8 py-2 px-8 lg:py-3 rounded-lg text-sm'>SINGH - UP</button>
       </div>
     </main>
   )
