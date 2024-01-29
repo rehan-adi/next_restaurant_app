@@ -68,7 +68,7 @@ function page() {
           <h3 className='courgette-font text-3xl text-red-600'>Discover</h3>
           <h1 className='text-4xl mt-6 montserrat-font text-center text-black tracking-widest font-bold'>PATO PLACE</h1>
         </div>
-        <div className='flex justify-center ml-8 lg:flex-row items-center flex-col mt-16 gap-6'>
+        <div className='flex justify-center lg:ml-8 lg:flex-row items-center flex-col mt-16 gap-6'>
           <div className='lg:h-[66vh] lg:w-[54vh] h-[55vh] w-[85vw] rounded-lg overflow-hidden '>
             <div className='lg:h-[66vh] flex justify-center items-center rounded-lg overflow-hidden duration-500 hover:scale-110 lg:w-[52vh]  h-[55vh] w-[85vw] fish-img'>
               <h1 className='px-8 py-3 bg-white text-2xl opacity-85 duration-700 hover:bg-red-600 hover:text-white text-black tracking-widest font-normal rounded-lg'>LUNCH</h1>
@@ -79,28 +79,28 @@ function page() {
               <h1 className='px-8 py-3 bg-white text-2xl opacity-85 duration-700 hover:bg-red-600 hover:text-white text-black tracking-widest font-normal rounded-lg'>DINNER</h1>
             </div>
           </div>
-          <div className='flex flex-col gap-7'>
-            <div className='h-[31vh] overflow-hidden rounded-lg w-[55vh]'>
-              <div className='h-[31vh] flex justify-center items-center hover:scale-110 duration-500  rounded-lg w-[50vh] drink-img'>
+          <div className='flex flex-col justify-center items-center gap-7'>
+            <div className='h-[31vh] overflow-hidden rounded-lg w-[85vw]'>
+              <div className='h-[31vh] flex justify-center items-center hover:scale-110 duration-500  rounded-lg w-[85vw] drink-img'>
                 <h1 className='px-8 py-3 bg-white text-2xl opacity-85 duration-700 hover:bg-red-600 hover:text-white text-black tracking-widest font-normal rounded-lg'>DRINK</h1>
               </div>
             </div>
-            <div className='h-[31vh] overflow-hidden rounded-lg w-[55vh] '>
-              <div className='h-[31vh] flex justify-center items-center hover:scale-110 duration-500 rounded-lg w-[50vh] stater-img'>
+            <div className='h-[31vh] overflow-hidden rounded-lg w-[85vw] '>
+              <div className='h-[31vh] flex justify-center items-center hover:scale-110 duration-500 rounded-lg w-[85vw] stater-img'>
                 <h1 className='px-8 py-3 bg-white text-2xl opacity-85 duration-700 hover:bg-red-600 hover:text-white text-black tracking-widest font-normal rounded-lg'>STARTERS</h1>
               </div>
             </div>
           </div>
         </div>
         <div className='flex justify-center flex-col  lg:flex-row items-center mt-7 lg:mt-7 gap-7'>
-          <div className='h-[31vh] lg:w-[53vw] w-[90vw] rounded-lg overflow-hidden '>
-            <div className='h-[31vh] lg:w-[53vw] flex justify-center items-center rounded-lg overflow-hidden duration-500 hover:scale-110 w-[90vw] happy-img'>
+          <div className='h-[31vh] lg:w-[53vw] w-[85vw] rounded-lg overflow-hidden '>
+            <div className='h-[31vh] lg:w-[53vw] flex justify-center items-center rounded-lg overflow-hidden duration-500 hover:scale-110 w-[85vw] happy-img'>
               <h1 className='px-8 py-3 bg-white text-2xl opacity-85 duration-700 hover:bg-red-600 hover:text-white text-black tracking-widest font-normal rounded-lg'>HAPPY HOUR</h1>
             </div>
           </div>
           <div className='flex flex-col gap-7'>
-          <div className='h-[31vh] lg:w-[24vw] w-[90vw] rounded-lg overflow-hidden '>
-            <div className='h-[31vh] lg:w-[24vw] flex justify-center items-center rounded-lg overflow-hidden duration-500 hover:scale-110 w-[90vw] dessert-img'>
+          <div className='h-[31vh] lg:w-[24vw] w-[85vw] rounded-lg overflow-hidden '>
+            <div className='h-[31vh] lg:w-[24vw] flex justify-center items-center rounded-lg overflow-hidden duration-500 hover:scale-110 w-[85vw] dessert-img'>
               <h1 className='px-8 py-3 bg-white text-2xl opacity-85 duration-700 hover:bg-red-600 hover:text-white text-black tracking-widest font-normal rounded-lg'>DESSERT</h1>
             </div>
           </div>

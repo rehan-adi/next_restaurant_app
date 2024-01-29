@@ -84,7 +84,7 @@ function page() {
                    </div>
                    <div className='h-[40vh] lg:w-[23vw] lg:h-[48vh] lg:text-sm  w-[90vw] flex flex-col justify-center items-center rounded-lg border-2 border-[#d9d9d9]'>
                    <div className='h-24 w-24 overflow-hidden rounded-full'>
-                       <div className='chef-img h-24 w-24 border-4 border-red-600 hover:scale-105 duration-500 rounded-full bg-purple-600'>
+                       <div className='chef-img2 h-24 w-24 border-4 border-red-600 hover:scale-105 duration-500 rounded-full bg-purple-600'>
 
                        </div>
                        </div>

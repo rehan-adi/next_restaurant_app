@@ -8,7 +8,7 @@ export const metadata = {
 
 function page() {
   return (
-    <div className='h-[490vh] montserrat-font w-auto'>
+    <div className='h-[498vh] montserrat-font w-auto'>
         <div className='h-[75vh] flex justify-center items-center w-auto menu-bg'>
           <h1 className='text-5xl mt-6 text-white montserrat-font tracking-widest font-bold'>PATO MENU</h1>
           </div>
