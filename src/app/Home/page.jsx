@@ -9,7 +9,7 @@ export const metadata = {
 
 function page() {
   return (
-    <main className='h-[1150vh] lg:h-[715vh] text-black max-w-[100vw] overflow-hidden '>
+    <main className='h-[1195vh] lg:h-[715vh] text-black max-w-[100vw] overflow-hidden '>
       <div className='img-1 text-white flex justify-center items-center flex-col w-full h-[100vh]'>
         <h2 className='text-3xl lg:text-5xl courgette-font font-medium'>Welcome to </h2>
         <h1 className='text-4xl lg:text-7xl mt-6 montserrat-font tracking-widest font-bold'>PATO PLACE</h1>
@@ -154,12 +154,12 @@ function page() {
         </div>
       </div>
 
-      <div className='h-[150vh] lg:h-[100vh] flex justify-center items-center flex-col bg-white w-auto '>
+      <div className='h-[210vh] lg:h-[100vh] flex justify-center items-center flex-col bg-white w-auto '>
         <div className='mb-10 lg:mb-0'>
           <h3 className='courgette-font text-center mt-10 text-3xl text-red-600'>Latest News</h3>
           <h1 className='text-4xl mt-4 text-center montserrat-font text-black tracking-widest font-bold'>THE BLOG</h1>
         </div>
-        <div className='h-[280vh] lg:h-[90vh] flex items-center lg:gap-5 lg:flex-row flex-col gap-8 justify-center w-auto lg:justify-center lg:items-center bg-white'>
+        <div className='h-[175vh] lg:h-[90vh] flex items-center lg:gap-5 lg:flex-row flex-col gap-8 justify-center w-auto lg:justify-center lg:items-center bg-white'>
       <div className=' flex justify-center lg:w-[25vw] overflow-hidden rounded-lg flex-col items-start w-[85vw] h-[56vh]'>
           <div className='w-[85vw] lg:w-[25vw] h-[30vh]  rounded-lg  overflow-hidden '>
             <div className='w-[85vw] lg:w-[25vw]  duration-700 transition-transform hover:scale-110 rounded-lg wine-img h-[30vh] '>
