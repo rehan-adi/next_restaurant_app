@@ -10,8 +10,8 @@ import { LuClock10 } from "react-icons/lu";
 
 function page() {
   return (
-    <div className='h-[150vh] bg-[#222] w-auto'>
-           <footer className='montserrat-font text-white w-auto h-[60vh] '>
+    <div className='h-[153vh] bg-red-500 w-auto'>
+           <footer className='montserrat-font text-white h-[140vh] bg-[#222] w-auto'>
             <div className='flex justify-center flex-col pt-14 items-center gap-16'>
                 <div>
                      <h1 className='tracking-widest mb-8 font-semibold text-xl '>CONTACT US</h1>
@@ -64,16 +64,16 @@ function page() {
                 </div>
              </div>
            </footer>
-           {/* <div className='bg-black text-white flex px-[200px] justify-between items-center h-[10vh] w-auto '>
-                 <div className='flex gap-6'>
-                    <span><FaFacebookF className='text-xl hover:text-red-600 duration-500 cursor-pointer text-white' /></span>
-                    <span><FaInstagram className='text-xl hover:text-red-600 duration-500 cursor-pointer text-white' /></span>
-                    <span><SiSwiggy className='text-xl hover:text-red-600 duration-500 cursor-pointer text-white' /></span>
+           <div className='bg-black text-white flex  justify-around items-center h-[13vh] w-auto '>
+                 <div className='flex gap-4'>
+                    <span><FaFacebookF className='text-lg hover:text-red-600 duration-500 cursor-pointer text-white' /></span>
+                    <span><FaInstagram className='text-lg hover:text-red-600 duration-500 cursor-pointer text-white' /></span>
+                    <span><SiSwiggy className='text-lg hover:text-red-600 duration-500 cursor-pointer text-white' /></span>
                  </div>
                  <div>
-                     <h1 className='text-sm font-semibold'>@ 2017 Colorlib. Get The Theme</h1>
+                     <h1 className='text-sm opacity-80 font-semibold'>@ 2017 Colorlib. Get The Theme</h1>
                  </div>
-           </div> */}
+           </div>
     </div>
   )
 }
