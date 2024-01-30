@@ -10,9 +10,9 @@ import { LuClock10 } from "react-icons/lu";
 
 function page() {
   return (
-    <div className='h-[153vh] lg:h-[120vh] w-auto'>
-           <footer className='montserrat-font text-white h-[140vh] bg-[#222] w-auto'>
-            <div className='flex justify-center flex-col pt-14 items-center gap-16'>
+    <div className='h-[153vh] lg:h-[70vh] w-auto'>
+           <footer className='montserrat-font text-white h-[140vh] lg:h-[60vh] bg-[#222] w-auto'>
+            <div className='flex justify-center lg:justify-center lg:items-start lg:flex-row flex-col pt-14 items-center gap-16'>
                 <div>
                      <h1 className='tracking-widest mb-8 font-semibold text-xl '>CONTACT US</h1>
                      <div>
@@ -37,7 +37,7 @@ function page() {
              </div>
              </div>
                 </div>
-                <div className='w-[70vw] h-[17vh]'>
+                <div className='w-[70vw] lg:h-[17vh] lg:w-[13vw] h-[17vh]'>
                 <h1 className='tracking-widest mb-8 font-semibold text-xl'>OPENING TIMES</h1>
                 <p className='text-xs opacity-50 mt-4 font-medium'> <LuClock10 className=' mr-2 text-sm mb-1 inline-block' />09:30 AM – 11:00 PM</p>
                 <p className='text-xs mt-4 opacity-50 font-medium'>Every Day</p>
@@ -45,18 +45,18 @@ function page() {
                 <div>
                      <h1 className='tracking-widest font-semibold mb-8 text-xl '>GALLERY</h1>
                      <div className='flex justify-center items-center gap-4'>
-                        <div className='h-[10vh] w-[20vw] overflow-hidden'>
-                        <div className='w-[20vw] hover:scale-105 duration-500 lawra-1 h-[10vh]'>
+                        <div className='h-[10vh] lg:h-[10vh] lg:w-[6vw] w-[20vw] overflow-hidden'>
+                        <div className='w-[20vw] lg:h-[10vh] lg:w-[6vw] hover:scale-105 duration-500 lawra-1 h-[10vh]'>
 
                         </div>
                         </div>
-                        <div className='h-[10vh] w-[20vw] overflow-hidden'>
-                        <div className='w-[20vw] hover:scale-105 duration-500  lawra-2 h-[10vh]'>
+                        <div className='h-[10vh] lg:h-[10vh] lg:w-[6vw]  w-[20vw] overflow-hidden'>
+                        <div className='w-[20vw] lg:h-[10vh] lg:w-[6vw]  hover:scale-105 duration-500  lawra-2 h-[10vh]'>
 
                         </div>
                         </div>
-                        <div className='h-[10vh] w-[20vw] overflow-hidden'>
-                        <div className='w-[20vw] hover:scale-105 duration-500 lawra-3 h-[10vh]'>
+                        <div className='h-[10vh] lg:h-[10vh] lg:w-[6vw]  w-[20vw] overflow-hidden'>
+                        <div className='w-[20vw] lg:h-[10vh] lg:w-[6vw] hover:scale-105 duration-500 lawra-3 h-[10vh]'>
 
                         </div>
                         </div>
@@ -64,8 +64,8 @@ function page() {
                 </div>
              </div>
            </footer>
-           <div className='bg-black text-white flex  justify-around items-center h-[13vh] w-auto '>
-                 <div className='flex gap-4'>
+           <div className='bg-black text-white flex  justify-around lg:justify-between lg:px-40 items-center h-[13vh] w-auto '>
+                 <div className='flex lg:gap-7 gap-4'>
                     <span><FaFacebookF className='text-lg hover:text-red-600 duration-500 cursor-pointer text-white' /></span>
                     <span><FaInstagram className='text-lg hover:text-red-600 duration-500 cursor-pointer text-white' /></span>
                     <span><SiSwiggy className='text-lg hover:text-red-600 duration-500 cursor-pointer text-white' /></span>
