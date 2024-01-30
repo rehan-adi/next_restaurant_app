@@ -8,7 +8,7 @@ export const metadata = {
 
 function page() {
   return (
-    <main className='h-[1185vh] lg:h-[675vh] text-black max-w-[100vw] overflow-hidden '>
+    <main className='max-h-fit lg:h-[675vh] text-black max-w-[100vw] overflow-hidden '>
       <div className='img-1 text-white flex justify-center items-center flex-col w-full h-[100vh]'>
         <h2 className='text-3xl lg:text-5xl courgette-font font-medium'>Welcome to </h2>
         <h1 className='text-4xl lg:text-7xl mt-6 montserrat-font tracking-widest font-bold'>PATO PLACE</h1>

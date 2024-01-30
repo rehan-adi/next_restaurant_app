@@ -8,132 +8,132 @@ export const metadata = {
 
 function page() {
   return (
-    <div className='h-[498vh] montserrat-font w-auto'>
+    <div className='max-h-fit montserrat-font w-auto'>
         <div className='h-[75vh] flex justify-center items-center w-auto menu-bg'>
-          <h1 className='text-5xl mt-6 text-white montserrat-font tracking-widest font-bold'>PATO MENU</h1>
+          <h1 className='text-3xl lg:text-5xl mt-6 text-white montserrat-font tracking-widest font-bold'>PATO MENU</h1>
           </div>
-          <div className='flex justify-around mt-20 px-20 ml-5 items-center'>
-            <div className=''>
+          <div className='flex justify-center flex-col lg:flex-row lg:gap-60 gap-16 mt-20 items-center'>
+            <div className='flex justify-center items-start flex-col'>
                   <h1 className='tracking-widest text-black mb-9 text-2xl font-semibold'>STARTERS</h1>
-                  <div className='flex gap-6  mb-9 items-center'>
+                  <div className='flex gap-6 mb-9 items-center'>
                      <p>PINE NUT SBRISALONA</p>
-                     <p className='tracking'>..............</p>
+                     <p className='tracking lg:flex hidden'>..............</p>
                      <p>$29.79</p>
                   </div>
                   <div className='flex  mb-9 items-center gap-6'>
                      <p>AENEAN EU</p>
-                     <p className='tracking'>.....................</p>
+                     <p className='tracking lg:flex hidden'>.....................</p>
                      <p>$19.35</p>
                   </div>
                   <div className='flex mb-9 items-center gap-6'>
                      <p>SED FEUGIATE</p>
-                     <p className='tracking'> ...................</p>
+                     <p className='tracking lg:flex hidden'> ...................</p>
                      <p className='ml-1'>$25.80</p>
                   </div>
                   <div className='flex mb-9 items-center gap-6'>
                      <p>CONSECTETUR</p>
-                     <p className='tracking'>...................</p>
+                     <p className='tracking lg:flex hidden'>...................</p>
                      <p>$21.89</p>
                   </div>
                   <div className='flex mb-9 items-center gap-6'>
                      <p>CHIKEN RESMI CABAB</p>
-                     <p className='tracking'>..............</p>
+                     <p className='tracking lg:flex hidden'>..............</p>
                      <p>$33.59</p>
                   </div>
                   <div className='flex items-center gap-6'>
                      <p>CHEESE ROLL</p>
-                     <p className='tracking'>...................</p>
+                     <p className='tracking lg:flex hidden'>...................</p>
                      <p>$47.24</p>
                   </div>
                   </div>
-                  <div>
+                  <div className='flex justify-center items-start flex-col'>
                   <h1 className='tracking-widest mb-9 text-black text-2xl font-semibold'>MAIN</h1>
                   <div className='flex mb-9 gap-6 items-center'>
                      <p>SUSPENDISSE</p>
-                     <p className='tracking'>.................</p>
+                     <p className='tracking lg:flex hidden'>.................</p>
                      <p>$29.79</p>
                   </div>
                   <div className='flex mb-9 items-center gap-6'>
                      <p>CONVALLIS AUGUE</p>
-                     <p className='tracking'>..............</p>
+                     <p className='tracking lg:flex hidden'>..............</p>
                      <p>$19.35</p>
                   </div>
                   <div className='flex mb-9 items-center gap-6'>
                      <p>MAECENAS TRISTIQUE</p>
-                     <p className='tracking'>............</p>
+                     <p className='tracking lg:flex hidden'>............</p>
                      <p>$12.19</p>
                   </div>
                   <div className='flex mb-9 items-center gap-6'>
                      <p>CHICKEN KABAB</p>
-                     <p className='tracking ml-2'>...............</p>
+                     <p className='tracking ml-2 lg:flex hidden'>...............</p>
                      <p>$31.89</p>
                   </div>
                   <div className='flex mb-9 items-center gap-6'>
                      <p>MUTTON KURMA</p>
-                     <p className='tracking ml-2'>...............</p>
+                     <p className='tracking ml-2 lg:flex hidden'>...............</p>
                      <p>$61.01</p>
                   </div>
                   <div className='flex items-center gap-6'>
                      <p>INDIAN THALI</p>
-                     <p className='tracking ml-2'>.................</p>
+                     <p className='tracking ml-2 lg:flex hidden'>.................</p>
                      <p>$91.89</p>
                   </div>
                   </div>
           </div>
-                  <div className='flex justify-around px-20 ml-5 items-center mt-20'>
+                  <div className='flex justify-center flex-col lg:flex-row lg:gap-60 gap-16 items-center mt-20'>
                      <div className=''>
                   <h1 className='tracking-widest text-black mb-9 text-2xl font-semibold'>DRINKS</h1>
-                  <div className='flex gap-6  mb-9 items-center'>
+                  <div className='flex gap-6 mb-9 items-center'>
                      <p>VIVAMUS PRETIUM</p>
-                     <p className='tracking'>................</p>
+                     <p className='tracking lg:flex hidden'>................</p>
                      <p>$49.79</p>
                   </div>
                   <div className='flex  mb-9 items-center gap-6'>
                      <p>DUIS PHARETRA LIGULA</p>
-                     <p className='tracking'>.............</p>
+                     <p className='tracking lg:flex hidden'>.............</p>
                      <p>$19.35</p>
                   </div>
                   <div className='flex mb-9 items-center gap-6'>
                      <p>IN EU DOLOR</p>
-                     <p className='tracking'> ...................</p>
+                     <p className='tracking lg:flex hidden'> ...................</p>
                      <p className='ml-1'>$25.80</p>
                   </div>
                   <div className='flex mb-9 items-center gap-6'>
                      <p>VERGIN MOJITO</p>
-                     <p className='tracking'>..................</p>
+                     <p className='tracking lg:flex hidden'>..................</p>
                      <p>$21.89</p>
                   </div>
                   <div className='flex items-center gap-6'>
                      <p>CHAMPAGNE</p>
-                     <p className='tracking'>....................</p>
+                     <p className='tracking lg:flex hidden'>....................</p>
                      <p>$99.21</p>
                   </div>
                   </div>
-                     <div>
+                     <div className='flex justify-center items-start flex-col'>
                   <h1 className='tracking-widest text-black mb-9 text-2xl font-semibold'>DESSERT</h1>
                   <div className='flex gap-6  mb-9 items-center'>
                      <p>PINE NUT SBRISALONA</p>
-                     <p className='tracking'>...........</p>
+                     <p className='tracking lg:flex hidden'>...........</p>
                      <p>$29.79</p>
                   </div>
                   <div className='flex  mb-9 items-center gap-6'>
                      <p>AENEAN EU</p>
-                     <p className='tracking'>..................</p>
+                     <p className='tracking lg:flex hidden'>..................</p>
                      <p>$19.35</p>
                   </div>
                   <div className='flex mb-9 items-center gap-6'>
                      <p>SED FEUGIATE</p>
-                     <p className='tracking'> ................</p>
+                     <p className='tracking lg:flex hidden'> ................</p>
                      <p className='ml-1'>$25.80</p>
                   </div>
                   <div className='flex mb-9 items-center gap-6'>
                      <p>CONSECTETUR</p>
-                     <p className='tracking'>................</p>
+                     <p className='tracking lg:flex hidden'>................</p>
                      <p>$21.89</p>
                   </div>
                   <div className='flex items-center gap-6'>
                      <p className='uppercase'>Gulab Jamoon</p>
-                     <p className='tracking'>...............</p>
+                     <p className='tracking lg:flex hidden'>...............</p>
                      <p>$61.56</p>
                   </div>
                   </div>
@@ -300,11 +300,11 @@ function page() {
                       </div>
                    </div>
                  </div>
-                 <div className='bg-gray-100 mt-9 flex justify-center items-center gap-10 montserrat-font  w-auto h-[25vh]'>
-                <h1 className='text-2xl tracking-widest font-semibold '>SPECIALS SIGN UP</h1>
-                <input type="text" className='pr-12 border outline-none border-[#d9d9d9] rounded-lg  pl-4 text-sm py-3' placeholder='Email Address' id="" /><IoMdMail className='inline-block absolute left-[900px]' />
-                <button className='bg-black text-white px-8 py-3 rounded-lg text-sm'>SINGH - UP</button>
-           </div>
+                 <div className=' bg-gray-100 flex justify-center flex-col lg:flex-row items-center gap-7 lg:gap-10 montserrat-font w-auto h-[35vh] lg:h-[20vh]'>
+        <h1 className='lg:text-2xl text-xl tracking-widest  font-semibold '>SPECIALS SIGN UP</h1>
+        <input type="text" className='pr-12 border outline-none border-[#d9d9d9] rounded-lg  pl-4 text-sm py-3' placeholder='Email Address' id="" /><IoMdMail className='inline-block absolute left-[900px]' />
+        <button className='bg-black text-white lg:px-8 py-2 px-8 lg:py-3 rounded-lg text-sm'>SINGH - UP</button>
+      </div>
     </div>
   )
 }
