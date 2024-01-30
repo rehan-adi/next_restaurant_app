@@ -44,7 +44,7 @@ function Page() {
         </Link>
       </div>
       <div className='flex items-center justify-center gap-6'>
-        <div className='flex items-center justify-center lg:gap-6 gap-3'>
+        <div className='flex items-center justify-center lg:gap-6 gap-4'>
           <span>
             <FaFacebookF className='text-lg lg:text-xl hover:text-red-600 duration-500 cursor-pointer text-white' />
           </span>
@@ -57,13 +57,13 @@ function Page() {
         </div>
         <div className='md:hidden'>
           <button className='text-white' onClick={toggleMenu}>
-            <RiMenu3Fill className='text-3xl mt-2' />
+            <RiMenu3Fill className='text-3xl mt-1' />
           </button>
         </div>
       </div>
       {isMenuOpen && (
         <div className='lg:hidden fixed inset-0 bg- bg-opacity-75 z-50'>
-          <div className='pt-4 px-20 w-[100vw]  fixed bg-white right-0 top-0 h-full text-black'>
+          <div className='pt-4 px-20 w-[60vw]  fixed bg-white right-0 top-0 h-full text-black'>
             <div className='text-white pt-4 pl-24 cursor-pointer mb-2' onClick={toggleMenu}>
              <span className='text-black'><RxCross2 className='text-2xl' /></span>
             </div>

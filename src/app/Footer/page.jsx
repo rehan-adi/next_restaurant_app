@@ -10,8 +10,8 @@ import { LuClock10 } from "react-icons/lu";
 
 function page() {
   return (
-    <div className='h-[153vh] lg:h-[70vh] w-auto'>
-           <footer className='montserrat-font text-white h-[140vh] lg:h-[60vh] bg-[#222] w-auto'>
+    <div className='h-[153vh] lg:h-[65vh] w-auto'>
+           <footer className='montserrat-font text-white h-[140vh] lg:h-[55vh] bg-[#222] w-auto'>
             <div className='flex justify-center lg:justify-center lg:items-start lg:flex-row flex-col pt-14 items-center gap-16'>
                 <div>
                      <h1 className='tracking-widest mb-8 font-semibold text-xl '>CONTACT US</h1>
