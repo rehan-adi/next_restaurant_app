@@ -90,7 +90,7 @@ function page() {
                   </div>
                   <div className='flex  mb-9 items-center gap-6'>
                      <p>DUIS PHARETRA LIG</p>
-                     <p className='tracking lg:flex hidden'>.............</p>
+                     <p className='tracking lg:flex hidden'>...............</p>
                      <p>$19.35</p>
                   </div>
                   <div className='flex mb-9 items-center gap-6'>
@@ -113,7 +113,7 @@ function page() {
                   <h1 className='tracking-widest text-black mb-9 text-2xl font-semibold'>DESSERT</h1>
                   <div className='flex gap-6  mb-9 items-center'>
                      <p>PINE NUT SBRISAL</p>
-                     <p className='tracking lg:flex hidden'>...........</p>
+                     <p className='tracking lg:flex hidden'>.............</p>
                      <p>$29.79</p>
                   </div>
                   <div className='flex  mb-9 items-center gap-6'>
@@ -222,7 +222,7 @@ function page() {
                  <div className='h-[50vh] mt-10 flex justify-center items-center w-auto dinner-img'>
                  <h1 className='text-4xl mt-6 text-white montserrat-font z-50 opacity-100 tracking-widest font-bold'>DINNER</h1>
                  </div>
-                 <dixxxv className='flex justify-between flex-col pb-12 lg:flex-row items-center h-[235vh] lg:h-[70vh] w-auto mt-12 px-48'>
+                 <div className='flex justify-between flex-col pb-12 lg:flex-row items-center h-[235vh] lg:h-[70vh] w-auto mt-12 px-48'>
                   <div className='flex flex-col gap-9'>
                     <div className='flex justify-center  flex-col lg:flex-row items-center'>
                       <div className='lg:h-[15vh] h-[15vh] w-[45vw] lg:w-[10vw] rounded-lg overflow-hidden'>
@@ -299,7 +299,7 @@ function page() {
                       </div>
                       </div>
                    </div>
-                 </dixxxv>
+                 </div>
                  <div className=' bg-gray-100 flex justify-center flex-col lg:flex-row items-center gap-7 lg:gap-10 montserrat-font w-auto h-[35vh] lg:h-[20vh]'>
         <h1 className='lg:text-2xl text-xl tracking-widest  font-semibold '>SPECIALS SIGN UP</h1>
         <input type="text" className='pr-12 border outline-none border-[#d9d9d9] rounded-lg  pl-4 text-sm py-3' placeholder='Email Address' id="" /><IoMdMail className='inline-block absolute left-[900px]' />
