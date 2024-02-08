@@ -47,7 +47,7 @@ function page() {
                   </div>
                   <div className='mt-10'>
                   <p className='text-sm mb-2 opacity-70'>Message</p>
-                    <textarea  className='border-2 p-3 outline-none rounded-lg border-[#d9d9d9]' placeholder='Message' name="" id="" cols="33" rows="8"></textarea>
+                    <textarea  className='border-2 p-3 lg:w-[55.5vw] w-[85vw] outline-none rounded-lg border-[#d9d9d9]' placeholder='Message' name=""  rows="8"></textarea>
                     </div>
                     <div className='flex justify-center items-center mt-4'>
                   <button className='bg-black text-white mt-4 px-8 py-3 text-xs montserrat-font rounded-xl'>SUBMIT</button>
