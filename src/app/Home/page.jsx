@@ -59,7 +59,7 @@ function page() {
             </div>
           </div>
           <h1 className='montserrat-font text-xl mt-4 tracking-widest font-semibold '>RED WINES YOU LOVE</h1>
-          <p className='mt-5'>Sed ornare ligula eget tortor tempor, quis porta tellus dictum.</p>
+          <p className='mt-5'>Sed ornare ligula eget tortor tempor, quis porta tellus <br /> dictum.</p>
           <a href='' className='py-2 mt-4 hover:text-red-600 text-xs montserrat-font text-black  uppercase bg-white rounded-xl'>LEARN MORE <IoIosArrowRoundForward className='inline-block mb-1 font-semibold text-2xl' /></a>
         </div>
       </div>
